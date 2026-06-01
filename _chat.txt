@@ -1,0 +1,1751 @@
+[22/04/26, 11.07.24 AM] Dev <> Admin: ‎You created group “Dev <> Admin”
+[22/04/26, 11.07.24 AM] Dev <> Admin: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[22/04/26, 11.08.28 AM] Angga Dev: ‎Angga Dev joined using your invite
+[22/04/26, 11.08.32 AM] Yoshua G.: Pagi guys,
+Ada permintaan dari atas utk buat group ini dengan admin nanti.
+[22/04/26, 11.10.24 AM] Yoshua G.: Tujuan nya untuk absen.
+[22/04/26, 11.13.01 AM] Yoshua G.: Arahan nya:
+- *Check-in jam 8:30 am WIB* tiap hari
+- *Wajib* sertakan task yang akan di kerjakan pada hari tsb 
+- *Check-out pada saat selesai (5:30 pm WIB waktu normal)* atau pada saat selesai
+- *Wajib* sertakan progress masing2 task yang di kerjakan.
+[22/04/26, 11.13.49 AM] Yoshua G.: Ini redundant dari task tracker kita sebenarnya. 
+Tp di ikuti dulu.
+[22/04/26, 11.15.00 AM] Angga Dev: Baik pa
+[22/04/26, 11.15.13 AM] Vincent kai: baik pa
+[22/04/26, 11.15.30 AM] Andre Dev: Baik pak
+[22/04/26, 11.33.17 AM] Harry kai: Baik pa
+[22/04/26, 11.36.08 AM] Yoshua G.: Okeeeh
+[22/04/26, 11.36.19 AM] Priska Admin Konstruksi.AI: ‎You added Priska Admin Konstruksi.AI
+[22/04/26, 12.56.55 PM] Priska Admin Konstruksi.AI: Halo, selamat siang teman-teman.  
+
+Izin menginfokan, mulai besok mohon bantuannya untuk mengirimkan to do list setiap hari pada saat:  
+• Check-in (08.30) – saat mulai bekerja  
+• Check-out (17.30) – setelah selesai bekerja  
+
+Daftar tersebut akan dijadikan acuan absensi, jadi mohon diperhatikan ketepatan waktunya ya.  
+
+Terima kasih.
+
+cc : pak @⁨Yoshua G.⁩ ‎<This message was edited>
+[22/04/26, 6.03.30 PM] Andre Dev: Check-out (17.54)
+
+Todo list (Consdoc):
+✅ Refactor/reimplement download *Transmittal form*, gagal download ketika banyak file di merge jadi 1 pdf result
+✅ Nama file unduhan *Transmittal Form* mengikuti `<transmittal-id>_<subject>` (sanitization nama file)
+✅  *Pin → by Label*: transmittal dapat diberi label untuk grouping (bukan hanya pin), termasuk bisa filter by label
+🔃 Brainstorm/debugging buat *Autodesk*, ada issue beberapa .cad file besar +150MB fail buat di preview. debug /w @⁨Andika kai⁩Konstruksi.AI
+[22/04/26, 6.07.34 PM] Andika kai: Check-out (18.04)
+
+To do list (Consdoc):
+- Support @⁨Andre Dev⁩ & @⁨Harry kai⁩ up autodesk 3d viewer into production ✅
+- Research and debug autodesk failed to convert large file (>100mb)
+- Research mpp file viewer using Aspose in backend and DHTMLX Gantt in frontend
+[22/04/26, 6.08.32 PM] Ikky kai: Checkout 18:06
+
+✅ Slicing screen inbox actionplan plus with logic state
+✅ Fix consistant function different 2 days (duration) from start and end date
+[22/04/26, 6.12.36 PM] Angga Dev: Checkout 21 April 2026 18:00:
+
+- ✅ Optimasi cara pengambilan data di ProjectsController dan ReportsController
+- ✅ Refactor logika kalkulasi progress dan biaya di FinanceService
+- ✅ Perbaikan format kode di FinanceService (spacing, date formatting)
+- ✅ Handle optional file upload dan perbaikan kompresi gambar di DefactsController & DefactsService
+- ✅ Tambah localization label laporan harian (Indonesia & Inggris)
+- ✅ Ganti DEFAULT_LANG dengan fungsi resolveReportLang() di DailyReportsController, FinalChecksController, dan ReportsController
+[22/04/26, 6.15.43 PM] Vincent kai: Checkout 21 April 2026 17:50:
+
+🔃 Slicing New UI & Integrate Document Number on Create Transmittal
+✅ New Feature for Submitter now can Edit Transmittal if only the Transmittal status on WAITING_VERIFICATION
+
+Todo:
+* Transmittal Scheduling
+* ⁠Assign user Grouping / Suggestions
+[22/04/26, 6.32.30 PM] Harry kai: Checkout 21 April 2026 18:00:
+
+✅ Implement Autodesk di Transmittal (Create, Inbox dan Sent)
+
+
+Todo:
+* Troubleshoot upload big file autodesk failed
+[23/04/26, 12.44.13 AM] Angga Dev: ‎This message was deleted.
+[23/04/26, 12.44.54 AM] Angga Dev: ‎This message was deleted.
+[23/04/26, 8.15.50 AM] Harry kai: Check-in (08:15)
+Todo list (Consdoc):
+- QA-04222026-102 - Fix Tidak bisa download file di share drive
+- QA-04222026-105 - List attach file from toggle file in chat tidak ter preview
+- QA-04222026-103 - File yang sudah di approved secara internal masih bisa di delete, harusnya file yang sudah di approved tidak bisa di delete
+[23/04/26, 8.33.02 AM] Angga Dev: ‎This message was deleted.
+[23/04/26, 8.35.08 AM] Andika kai: Check in 08.33
+To do (Consdoc):
+- Continue research and fix autodesk feature about failed to convert large file (>100mb)
+- Continue research mpp file viewer and discuss about integrating in frontend
+[23/04/26, 8.36.39 AM] Vincent kai: Check-in 23 April 2026, 08:26 Vincentius Clarishna
+
+* Slicing & Integrasi Documen number ‎<This message was edited>
+[23/04/26, 8.52.14 AM] Ikky kai: Checkin 23 April 2026, 08:40
+
+* Reseach 3d view for webview mobile
+[23/04/26, 9.01.39 AM] Angga Dev: Check In 23 Apr 2026, 08.33
+
+• continue implement action plan plus core system
+[23/04/26, 11.27.37 AM] Andre Dev: Check In 23 Apr 2026, 11.23
+- Brainstorm/debugging buat *Autodesk*, ada issue beberapa .cad file besar +150MB fail buat di preview.
+- Pengaturan notifikasi di *user profile*: toggle channel (email, in-app, push desktop, dll.) on/off per tipe atau per channel. *Related: `module-notification`.*
+[23/04/26, 5.39.38 PM] Angga Dev: Check Out
+23 Apr 2026, 17.38
+
+**Project Conspact (liteBE):**
+
+✅ Refactor pengambilan data project di FinanceService & ReportsService agar konsisten menggunakan method `newFindOne`
+✅ Implementasi sync endpoint di FinanceController & penambahan dukungan addendum pada pengambilan data progress di FinanceService
+
+**Project Conspact Plus:**
+
+✅ Tambah CLI script untuk kompresi gambar secara rekursif di folder public beserta dokumentasi penggunaannya
+✅ Implementasi fitur submit progress action plan dengan penanganan gambar & notifikasi, serta tambah fulltext search untuk action plan, user, dan group
+✅ Tambah endpoint untuk mengambil data children dari sebuah action plan
+✅ Refactor routing action plan, penggunaan user ID untuk pembuatan & update action plan, serta implementasi modul tracking progress action plan
+[23/04/26, 5.40.09 PM] Harry kai: Check-out (17:40)
+Todo list (Consdoc):
+- QA-04222026-102 - Fix Tidak bisa download file di share drive ✅
+- QA-04222026-105 - List attach file from toggle file in chat tidak ter preview ✅
+- QA-04222026-103 - File yang sudah di approved secara internal masih bisa di delete, harusnya file yang sudah di approved tidak bisa di delete  (Butuh discuss lebih lanjut dengan mas Byan, mas Kis dan mas Andre)
+[23/04/26, 5.41.18 PM] Vincent kai: Check Out
+23 April 2026 17:40
+
+✅Fix halaman menjadi putih setelah klik salah satu detail transmittal di sent
+🔃 Slicing New UI (100%) & Integrate (30%) Document Number on Create Transmittal
+[23/04/26, 5.46.05 PM] Andika kai: Check out 17.45
+To do (Consdoc):
+- Continue research and fix autodesk feature about failed to convert large file (>100mb) (*unsolved*)
+- Continue research mpp file viewer and discuss about integrating in frontend (*still choosing the right library for frontend*)
+[23/04/26, 5.47.43 PM] Ikky kai: Checkout 23 April 2026, 17:40
+* Reseach 3d view for webview mobile 🔄 (init next app, preview 3d using hardcode key from consdoc data) 
+* Debugging bugs audit finance w/ mas pras, mas angga ✅
+* Fix not consistant show the data in Ikhtisar tab Analytics audit finance ✅
+[23/04/26, 5.52.06 PM] Andre Dev: Check Out
+23 Apr 2026, 17.49
+
+*To-do (Consdoc):*
+✅ Pengaturan notifikasi di user profile: toggle channel (email, in-app, push desktop, dll.) on/off per tipe atau per channel. Related: module-notification.
+✅ Frontend fix, Transmittal tidak bisa di close Approval oleh Checker(s)
+✅ Research SDK OpenAI for fetch monthly API usage/cost
+✅ Create Access/secret token for Conspact Autodesk, credential handover to: @⁨Ikky kai⁩Konstruksi.AIKonstruksi.AI 
+(Unsolved) ~Debugging buat *Autodesk*, ada issue beberapa .cad file besar +150MB fail buat di preview.~ ‎<This message was edited>
+[24/04/26, 8.17.01 AM] Harry kai: Check In 
+24 Apr 2026, 08:15
+
+*Consdoc*
+- QA-04222026-103 - File yang sudah di approved secara internal masih bisa di delete, harusnya file yang sudah di approved tidak bisa di delete  (Butuh discuss lebih lanjut dengan mas Byan, mas Kis dan mas Andre)
+- Fix Disable comment when nested transmittal (resubmit) when the user not as checker / approver
+- Fix body transmittal that have no notes its should be show no description available instead of empty json {}
+
+*Conspact Mobile*
+- Conspact mobile drive feature, prevent user to create folder using special character. (only text, number and hyphens - )
+
+*Tracker Conspact*
+- Tracker Conspact fix status acceleration not record as in-progress
+- Tracker Conspact implement daily report feature
+[24/04/26, 8.25.11 AM] Ikky kai: Checkin 24 April 2026, 08:25
+* Continue slicing actionplan plus.
+* Fix action search folder cannot back to root project.
+* Edit Repair in defect, make photo optional.
+[24/04/26, 8.30.43 AM] Angga Dev: Checkin 24 April 2026, 08:30
+* Continue implement action plan plus core system
+[24/04/26, 8.31.41 AM] Andika kai: Check in 08.31
+To do (Consdoc):
+- Support @⁨Andre Dev⁩ implement Microsoft Project viewer feature
+[24/04/26, 8.32.19 AM] Vincent kai: Check in 24 April 2026 08.31 
+
+* continue implement document number ‎<This message was edited>
+[24/04/26, 8.36.01 AM] Andre Dev: Check In 
+24 Apr 2026, 08:35
+
+*Consdoc*
+- Research and reimplement Microsoft Project viewer feature
+[24/04/26, 5.51.12 PM] Angga Dev: Check Out
+24 Apr 2026, 17.50
+
+*Project Conspact Plus* — 24 Apr 2026:
+
+✅ Memperbaiki pesan notifikasi progress agar lebih jelas
+✅ Menambahkan field `approvedBy` dan `approvedAt` pada riwayat progress action plan
+✅ Mengimplementasikan logika hapus gambar progress lama saat update
+✅ Menambahkan fitur approval progress action plan beserta endpoint-nya
+✅ Refactor kalkulasi progress dan resolusi status dengan pengecekan approval
+✅ Menambahkan helper untuk normalisasi angka dan resolusi status action plan
+✅ Mengimplementasikan soft delete pada action plan
+✅ Menambahkan endpoint dan service untuk update urutan (sequence) action plan
+[24/04/26, 6.02.07 PM] Harry kai: Check out
+24 Apr 2026, 18:00
+
+*Consdoc*
+- QA-04222026-103 - File yang sudah di approved secara internal masih bisa di delete, harusnya file yang sudah di approved tidak bisa di delete  (Butuh discuss lebih lanjut dengan mas Byan, mas Kis dan mas Andre) ⏳
+- Fix Disable comment when nested transmittal (resubmit) when the user not as checker / approver ✅
+- Fix body transmittal that have no notes its should be show no description available instead of empty json {}
+✅
+*Conspact Mobile*
+- Conspact mobile drive feature, prevent user to create folder using special character. (only text, number and hyphens - ) ✅
+
+*Tracker Conspact*
+- Tracker Conspact fix status acceleration not record as in-progress ✅
+- Tracker Conspact implement daily report feature ⏳
+[24/04/26, 6.02.31 PM] Ikky kai: Checkout 24 April 2026, 17:50
+* Continue slicing actionplan plus. (Create task screen w/ logic nested) ✅
+* Fix action search folder cannot back to root project. ✅
+* Edit Repair in defect, make photo optional. ✅
+[24/04/26, 6.05.51 PM] Andre Dev: Check Out
+24 Apr 2026, 18:02
+
+*Consdoc*
+✅ Research and reimplement Microsoft Project viewer feature
+🔃 Create tool extractor for Microsoft Project, from library desktop https://www.mpxj.org/ .NET
+✅ Refactor `module-document` typesafety pattern, dan improve prisma query
+[24/04/26, 6.13.19 PM] Andika kai: Check out 18.12
+To do (Consdoc):
+- Support @⁨Andre Dev⁩ implement Microsoft Project viewer feature ✅
+- Handover dummy data dan acuan desain untuk fitur Microsoft Project viewer ke tim frontend ✅
+[24/04/26, 7.45.12 PM] Vincent kai: Checkout 24 April 2026 18.00
+
+🔃 Integrasi document number (40%)
+[27/04/26, 7.48.30 AM] Andre Dev: Check In
+27 Apr 2026, 07:48
+
+*Consdoc*
+✅ Transmittal document number (urgent hotfix, cant create transmittal)
+- Continue tool extractor for Microsoft Project, from library desktop https://www.mpxj.org/ .NET
+[27/04/26, 8.24.06 AM] Ikky kai: Checkin 27 April 2026, 08:23
+* Continue slicing actionplan plus.
+* Testing for new app.
+[27/04/26, 8.26.27 AM] Angga Dev: Checkin 27 April 2026, 08:26
+* Continue implement action plan plus core system
+[27/04/26, 8.33.12 AM] Andika kai: Check in 27 April 2026, 08:31
+
+Consdoc
+- Continue support backend & frontend team (integrating or other issue in MPP viewer & Autodesk features)
+[27/04/26, 8.41.05 AM] Vincent kai: Check in 27 April 2026, 08.44
+
+* grouping chechker ‎<This message was edited>
+[27/04/26, 8.44.01 AM] Harry kai: Check In
+27 Apr 2026, 08:39
+
+*Consdoc*
+- Shows detail (transmittal id, doc number) on the sent page (transmittal body) when notes is empty
+- Comparison file mpp in shared drive / publish drive
+[27/04/26, 5.32.09 PM] Ikky kai: Checkout 27 April 2026, 17:30
+* Continue slicing actionplan plus (bottomsheet create multiple task and subtask, derail progress per level tab detal) ✅
+* Testing for new app. (pending w/ mas pras)
+[27/04/26, 5.33.24 PM] Harry kai: Check Out
+27 Apr 2026, 17:32
+
+*Consdoc*
+- Shows detail (transmittal id, doc number) on the sent page (transmittal body) when notes is empty ✅
+- Comparison file mpp in shared drive / publish drive⏳
+[27/04/26, 5.34.43 PM] Andika kai: Checkout 27 April 2026, 17:33
+- Research komparasi file for autodesk & display the highlight of the difference 🔃
+- Research annotation/markups for autodesk file 🔃
+[27/04/26, 5.37.43 PM] Andre Dev: Check Out
+27 Apr 2026, 17:38
+
+*Consdoc*
+✅ Tool extractor for Microsoft Project, from library desktop https://www.mpxj.org/ .NET
+✅ Hotfix transmittal form download
+✅ Centralized new @module/notification (desktop, in-app, email, etc) for flexibility ‎<This message was edited>
+[27/04/26, 5.38.29 PM] Angga Dev: Check Out
+27 Apr 2026, 17.36
+
+*Conspact Plus*
+
+✅ Menambahkan perhitungan progress yang memperhitungkan status rejected
+✅ Menambahkan endpoint baru untuk mengambil detail progress action plan
+✅ Refactor DTO progress untuk struktur data yang lebih baik
+✅ Memperbaiki pencarian nama dan email user menggunakan ⁠ contains ⁠ untuk performa lebih baik
+✅ Menambahkan role baru (engineer & inspector) beserta asosiasi project dan company pada seeding
+✅ Menambahkan fitur reject progress action plan
+[27/04/26, 5.45.50 PM] Vincent kai: Check out 27 April 2026, 17.38
+
+*Consdoc*
+* Ketika view transmittal yang paling update (notifikasi masuk), langsung ke "BLANK PAGE"🔃
+* ⁠⁠grouping checker🔃
+[28/04/26, 7.49.48 AM] Andre Dev: Check In
+28 Apr 2026, 07:49
+
+*Consdoc*
+- Implement `cli-mpxj` as a service into workflow document service
+- Implement `module-notification` centralized, into each service
+- Integrate/adjust into current MppViewer
+[28/04/26, 8.22.01 AM] Ikky kai: Checkin 28 April 2026, 08:21
+* Continue slicing actionplan plus
+[28/04/26, 8.26.07 AM] Angga Dev: Checkin 28 April 2026, 08:25
+* Continue implement action plan plus core system
+[28/04/26, 8.26.49 AM] Vincent kai: Checkin 28 April 2026, 08.26
+* Continue implement Grouping assign checker
+[28/04/26, 8.29.40 AM] Harry kai: Check In
+28 Apr 2026, 08:29
+
+*Consdoc*
+- Implement MPP viewer in transmittal document viewer
+- Fixed issue where users were not redirected to the login page when local storage user was null
+- Fixed useSession issue where expired sessions redirected to login but did not clear persisted session data
+- Research annotation/markup autodesk file ‎<This message was edited>
+[28/04/26, 8.31.04 AM] Andika kai: check in 28 April 2026, 08.30
+
+Consdoc
+- Continue research komparasi file for autodesk & display the highlight of the difference
+- Continue research annotation/markups for autodesk file
+[28/04/26, 5.38.16 PM] Andika kai: check out 28 April 2026, 17.36
+
+Consdoc
+- Research and experiment on frontend side komparasi file for autodesk & display the highlight of the difference 🔃
+- Research and experiment on frontend side annotation/markups for autodesk file & discuss with mas harry for customization 🔃
+[28/04/26, 5.41.31 PM] Andre Dev: Check Out
+28 Apr 2026, 17:38
+
+*Consdoc*
+✅ Implement `cli-mpxj` as a service into workflow document service _(No need to use ~Aspose.Tasks~ for subscription)_
+✅ Integrate/adjust into current MppViewer
+✅ Hotfix api-gateway cors-origin (Issue download annotation)
+🔃 Implement `module-notification` centralized, into each service
+🔃 Research AI Consdoc, with embedding/vector/indexing document
+🔃 Improving global search to be able achieve 1-15ms response by indexing ‎<This message was edited>
+[28/04/26, 5.52.26 PM] Vincent kai: Checkout 28 April 2026 17:40
+
+*Consdoc*
+* ⁠implement Grouping assign checker 🔃
+* Fix: ⁠Ketika view transmittal yang paling update (notifikasi masuk), langsung ke "BLANK PAGE" ✅
+[28/04/26, 6.00.47 PM] Harry kai: Check Out
+28 Apr 2026, 17:40
+
+*Consdoc*
+- Implement MPP viewer in transmittal document viewer ✅
+- Fixed issue where users were not redirected to the login page when local storage user was null✅
+- Fixed useSession issue where expired sessions redirected to login but did not clear persisted session data✅
+- Research annotation/markup autodesk file⏳
+[28/04/26, 6.17.12 PM] Angga Dev: Check Out
+28 Apr 2026, 18.16
+*Project Conspact Plus* — 28 Apr 2026:
+
+✅ Implementasi fitur import action plan dan generate template
+✅ Implementasi manajemen feedback untuk riwayat progres (buat, lihat, update, hapus)
+[28/04/26, 7.34.23 PM] Ikky kai: Checkout 28 April 2026, 17:50
+*Conspact - Actionplan plus*
+* Slicing detail progress tab material dan equipment
+* Slicing Bottomsheet untuk delete item
+* Logic state untuk delete item matrerial equipment
+* Slicing detail material
+[29/04/26, 8.18.16 AM] Ikky kai: Checkin 29 April 2026, 08:17
+* Continue slicing actionplan plus
+[29/04/26, 8.29.00 AM] Angga Dev: Checkin 29 April 2026, 08:27
+* Continue implement action plan plus core system
+[29/04/26, 8.31.46 AM] Andika kai: Check in 29 April 2026, 08:30
+* Continue research Autodesk viewer extension for viewer utility
+* Continue research Autodesk custom color highlighting to specific part (for comparing document version)
+[29/04/26, 8.41.11 AM] Vincent kai: Checkin 29 April 2026 08:40
+
+* Integrasi chechker suggestion
+[29/04/26, 8.54.17 AM] Harry kai: Check In
+29 April 2026, 08:53
+
+*Consdoc*
+- Continue research annotation/markup autodesk file⏳
+- Research custom toolbar on edit mode autodesk viewer ⌛️ ‎<This message was edited>
+[29/04/26, 9.39.22 AM] Andre Dev: Check In
+28 Apr 2026, 09:38
+
+*Consdoc*
+- Continue implement `module-notification` centralized, into each service
+- Continue research AI Consdoc, with embedding/vector/indexing document
+- Continue improving global search to be able achieve 1-15ms response by indexing
+[29/04/26, 5.30.26 PM] Andika kai: Check out 29 April 2026, 17:30
+* Continue research Autodesk viewer extension for viewer utility ✅
+* Continue research Autodesk custom color highlighting to specific part (for comparing document version) ✅
+* Add error handler and error notification on Pusdatin n8n workflow ✅
+[29/04/26, 5.35.30 PM] Ikky kai: Checkout 29 April 2026, 17:30
+*Conspact - Actionplan plus*
+
+✅ Section Progress: 
+* Built the Progress tab in detail task
+* Added progress item cards and navigation to detail progress
+* Added inspector-only Add Progress button
+* Created new screen AddProgressPlus
+* Implemented progress filter for level 1 and level 2
+
+✅ Section Manpower:
+* Built Manpower tab similar to Material & Equipment
+* Added manpower planning screen
+* Added add/edit manpower form
+* Added confirm delete bottomsheet for manpower item
+
+✅ Section Manage Member:
+* Added header more menu in detail task
+* Added Manage Member flow
+* Created ManageMember screen
+* Created AddMember screen
+* Added selected member avatars with remove action
+* Added overview bottomsheet for selected members
+* Save Member button only active if at least 1 member is selected
+[29/04/26, 5.39.29 PM] Angga Dev: Check Out
+29 Apr 2026, 17.36
+*Project Conspact Plus* — 29 Apr 2026:
+
+✅ Refactor skema database untuk persisten data untuk kebutuhan data Curva S dan tabular dimana dengan perbedaan periode (Daily,weekly,monthly)
+🔄 Implementasi statistik Curva S dan Tabular.
+[29/04/26, 5.41.09 PM] Vincent kai: Check out 29 April 2026, 17:30
+
+*Consdoc*
+✅ Edit Transmittal
+🔄 Fix Forgot Password
+🔄 Suggestion Checker ‎<This message was edited>
+[29/04/26, 5.44.10 PM] Harry kai: Check Out
+29 April 2026, 17:40
+
+*Consdoc*
+- Continue research annotation/markup autodesk file ✅
+- Research custom toolbar on edit mode autodesk viewer ⌛️
+[29/04/26, 5.45.02 PM] Andre Dev: Check Out 
+29 Apr 2026, 17:45
+
+*Consdoc*
+🔃 Continue implement `module-notification` centralized, into each service
+🔃 Continue research AI Consdoc, with embedding/vector/indexing document
+✅ Continue improving global search to be able achieve 1-15ms response by indexing
+[30/04/26, 7.41.16 AM] Andre Dev: Check In
+30Apr 2026, 07:41
+
+*Consdoc*
+- Continue implement `module-notification` centralized, into each service
+- Continue research AI Consdoc, with embedding/vector/indexing document
+[30/04/26, 7.55.44 AM] Harry kai: Check In
+30 April 2026, 07:54
+
+*Consdoc*
+- Research custom toolbar on edit mode autodesk viewer ⌛️
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) --> Display nya saja yang akan diganti
+- Scroll in transmittal document viewer
+- Penjadwalan transmittal yang dikirim  bisa di atur untuk skip luar jam kerja dan hari libur
+- Chat enable untuk submitter
+[30/04/26, 8.34.21 AM] Ikky kai: Checkin 30 April 2026, 08:30
+* Continue slicing actionplan plus.
+[30/04/26, 8.41.20 AM] Vincent kai: Check in 30 April 2026, 08:40
+
+*Consdoc*
+* Fix forgot password ‎<This message was edited>
+[30/04/26, 8.49.08 AM] Andika kai: Check in 30 April 2026, 08:48
+
+Pusdatin Chatbot
+- Refactore AI prompt
+
+Consdoc
+- Explore MPP viewer for frontend ‎<This message was edited>
+[30/04/26, 8.49.48 AM] Angga Dev: Checkin 
+30 April 2026, 08:48
+
+* Continue implement analytics & report action plan plus
+[30/04/26, 5.51.13 PM] Andika kai: Check out 30 April 2026, 17:50
+
+Pusdatin Chatbot
+- Refactore AI prompt and fix error when user perform registration but with incomplete data ✅
+
+Consdoc
+- Explore MPP viewer for frontend 🔃
+[30/04/26, 5.57.13 PM] Ikky kai: Checkout 30 April 2026, 17:45
+
+*Conspact - Actionplan plus*
+
+✅ Slicing Create Detail Task Screen
+* Step 1: detail task form sesuai level task.
+* Step 2: material planning, termasuk add item via bottomsheet dan overview selected item.
+* Step 3: equipment planning, flow sama seperti material planning.
+* Step 4: manpower planning, termasuk add/edit worker type via bottomsheet.
+* Step 5: collaborators, termasuk pilih member, select all per role, dan overview member terpilih.
+[30/04/26, 6.00.17 PM] Harry kai: Check Out
+30 April 2026, 17:50
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) --> Display nya saja yang akan diganti ⏳
+- Scroll in transmittal document viewer ✅
+- Penjadwalan transmittal yang dikirim  bisa di atur untuk skip luar jam kerja dan hari libur ⏳
+- Chat enable untuk submitter ✅
+[30/04/26, 6.17.44 PM] Vincent kai: Checkout 30 April 2026, 17:40
+
+*Consdoc*
+* Fix Reset password -> masih difix problem saat blankscreen
+* ⁠Redesign Revoke transmittal 🔄
+[30/04/26, 6.23.41 PM] Angga Dev: Check Out
+30 Apr 2026, 18.22
+
+*Project Conspact Plus*
+
+✅ Menambahkan data kumulatif harian pada statistik mingguan dan bulanan
+✅ Memperbaiki penanganan tanggal pada proses import action plan
+✅ Implementasi analytics untuk action plan
+[30/04/26, 7.08.42 PM] Andre Dev: Check Out
+30 Apr 2026, 18:41
+
+*Consdoc*
+✅ Continue implement `module-notification` centralized, into each service
+🔃 Continue research AI Consdoc, with embedding/vector/indexing document
+[01/05/26, 8.10.50 AM] Andre Dev: ‎This message was deleted.
+[04/05/26, 8.25.11 AM] Angga Dev: Checkin 
+4 Mei 2026, 08:25
+
+* implement report action plan plus
+* ⁠advance list project data ‎<This message was edited>
+[04/05/26, 8.26.29 AM] Andre Dev: Check In
+04 Apr 2026, 08:26
+
+- Continue research AI Consdoc, with embedding/vector/indexing document ‎<This message was edited>
+[04/05/26, 8.30.07 AM] Harry kai: Check Out
+04 Mei 2026, 08:29
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) --> Display nya saja yang akan diganti ⏳
+- Scroll in transmittal document viewer ✅
+- Penjadwalan transmittal yang dikirim  bisa di atur untuk skip luar jam kerja dan hari libur ⏳
+- Chat enable untuk submitter ✅
+[04/05/26, 8.31.44 AM] Ikky kai: Checkin 04 Mei 2026, 08:30
+* Continue slicing actionplan plus (Analytics).
+[04/05/26, 8.32.33 AM] Vincent kai: Checkin 04 Mei 2026 08:32
+* Continue integrate Revoke Transmittal
+[04/05/26, 8.34.05 AM] Andika kai: Checkin 04 Mei 2026, 08:33
+
+Consdoc:
+- Explore MPP viewer for frontend
+
+Whatsapp Service & Koni
+* Develop simple dashboard for whatsapp service
+* Enhance Koni internal dashboard ‎<This message was edited>
+[04/05/26, 5.46.42 PM] Andika kai: Check out 4 Mei 2026, 17:46
+
+Consdoc:
+- Explore MPP viewer for frontend 🔃
+
+Whatsapp Service & Koni
+* Develop simple dashboard for whatsapp service ✅
+* Enhance Koni internal dashboard ✅
+[04/05/26, 5.52.54 PM] Andre Dev: Check out
+04 Apr 2026, 12:10
+
+🔃 Continue research AI Consdoc, with embedding/vector/indexing document
+✅ Publish/shared drive table layout new API
+[04/05/26, 5.58.31 PM] Harry kai: ‎This message was deleted.
+[04/05/26, 6.02.40 PM] Ikky kai: Checkout 04 Mei 2026, 18:00
+
+*Conspact - Actionplan Plus*
+
+✅ Slicing Screen Analytics
+* Integrated the new Actionplan Plus analytics screen UI based on the provided design.
+* Wired navigation so the analytics screen can be opened from the existing Actionplan Plus flow.
+* Added a bottomsheet mode switcher in the analytics header.
+* Implemented Simplified mode with Plan and Realization presentation.
+* Implemented Detailed mode with Submission and Approved presentation.
+* Kept the screen on static/mock data for now, ready for API integration later.
+* Ran a focused lint check on the analytics file and confirmed it passes.
+[04/05/26, 6.11.58 PM] Vincent kai: Checkout 04 Mei 2026, 17:40
+
+* ✅ Revoke transmittal slicing
+* ⁠🔄 Integrasi Revoke transmittal
+* ⁠🔄 Update UI Re-Open transmittal
+[04/05/26, 6.58.06 PM] Harry kai: Check Out
+04 Mei 2026, 18:00
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) --> Display nya saja yang akan diganti ⏳
+- Scroll in transmittal document viewer ✅
+- Penjadwalan transmittal yang dikirim  bisa di atur untuk skip luar jam kerja dan hari libur ✅
+- Chat enable untuk submitter ✅
+[05/05/26, 7.52.04 AM] Harry kai: Check In
+05 Mei 2026, 07:51
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) ⏳
+- CRUD new directories in shared drive
+
+*Conspact Tracker*
+- Daily report implementation
+[05/05/26, 8.36.14 AM] Andika kai: Check In
+05 Mei 2026, 08:35
+
+Whatsapp Service & Koni
+- Continue add and enhance feature in internal dashboard
+
+Pusdatin Chatbot
+- Fixing minor error (kadang objek undefined sehingga error untuk diproses di workflownya)
+[05/05/26, 8.44.14 AM] Vincent kai: Check in 05 Mei 2026 08:30
+
+* Update UI Re-Open transmittal
+[05/05/26, 9.07.10 AM] Ikky kai: Checkin 05 Mei 2026, 08:45
+* Continue slicing actionplan plus (Daily Data Report).
+[05/05/26, 5.35.10 PM] Andika kai: Check out 5 Mei 2026, 17:34
+
+Consdoc:
+- Research Autodesk Construction Cloud issue feature 🔃
+
+Whatsapp Service & Koni
+* Continue add and enhance feature in internal dashboard 🔃
+
+Pusdatin Chatbot
+- Fixing minor error (kadang objek undefined sehingga error untuk diproses di workflownya) ✅
+[05/05/26, 6.13.42 PM] Harry kai: Check Out
+05 Mei 2026, 18:10
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap)  (65%)⏳
+- CRUD new directories in shared drive 
+- ⁠Fix annotation text jumping (prevent race condition) ✅
+
+*Conspact Tracker*
+- Daily report implementation ⏳
+[05/05/26, 6.25.34 PM] Ikky kai: Checkout 05 Mei 2026, 18:15
+
+*Conspact - Actionplan Plus*
+
+✅ Daily Data and Supporting Data Update
+
+• Created a new Supporting Data screen for Actionplan Plus using tab and child component structure.
+• Split the form into dedicated sections: Manpower, Material, Equipment, Weather, Work Health and Safety, Potential Risk & Solution, Field Instruction, and Attachment.
+• Wired Actionplan Plus navigation to use the new local Supporting Data form instead of the old Action Plan form.
+• Kept the existing submit flow and payload structure for daily report saving.
+• Merged Material and Equipment input into the current `materialEquipments` payload to stay compatible with the API.
+• Added the Attachment tab as UI preparation for future API support.
+[05/05/26, 6.29.11 PM] Vincent kai: Checkout 05 Mei 2026 17:35
+
+* ✅Setelah create transmittal langsung direct ke halaman Sent Transmittal
+* ✅⁠fitur Revoke Checker & Approver transmittal
+* ⁠🔄Update UI Re-Open Transmittal seperti di prod
+[06/05/26, 8.28.00 AM] Ikky kai: Checkin 06 Mei 2026, 08:27
+* Continue slicing actionplan plus (Import page).
+* Analisis response api mana saja yang berubah w/ mas angga if available.
+[06/05/26, 8.29.47 AM] Angga Dev: Checkin 
+6 Mei 2026, 08:29
+
+* implement report action plan plus
+* ⁠advance list project data
+[06/05/26, 8.39.50 AM] Andika kai: Checkin 
+6 Mei 2026, 08:40
+
+Consdoc
+* Continue research Autodesk 3d annotation
+[06/05/26, 8.51.08 AM] Harry kai: Check In
+06 Mei 2026, 08:45
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap)  (65%)
+- CRUD new directories in shared drive 
+- Explore extension Autodesk
+
+*Conspact Tracker*
+- Daily report implementation ‎<This message was edited>
+[06/05/26, 8.53.21 AM] Vincent kai: Check in 06 Mei 2026 08:50
+
+* update ui re open transmittal
+[06/05/26, 5.47.54 PM] Andika kai: Checkout 6 Mei 2026, 17:37
+
+Consdoc
+- Research Autodesk 3d annotation 🔃
+[06/05/26, 5.53.21 PM] Harry kai: Check Out
+06 Mei 2026, 17:53
+
+*Consdoc*
+- Request ganti nama folder "sitemap" --> "others" untuk cscods (dikarenakan diawal folder other ditaruh di sitemap) ✅
+- CRUD new directories in shared drive ⏳
+- Explore extension Autodesk⏳
+
+*Conspact Tracker*
+- Daily report implementation ✅ ‎<This message was edited>
+[06/05/26, 6.00.02 PM] Angga Dev: Check Out
+6 Mei 2026, 17.59
+
+✅ Quick meet for Update Progress dev with QA
+
+*Project Conspact (liteBE)* & Admin Panel
+✅ Menambahkan filter pekerjaan tambahan di admin panel.
+🔄 Menambahkan fitur duplikasi histori progress ke pekerjaan lain.
+
+*Project Conspact Plus:*
+✅ Advance list project data
+✅ Memperbaiki pesan error dan response sukses pada fitur import agar konsisten dalam bahasa Inggris
+✅ Menyederhanakan logika update profil user
+✅ Membersihkan kalkulasi S-curve dengan menghapus variabel yang tidak terpakai
+[06/05/26, 6.09.11 PM] Ikky kai: Checkout 06 Mei 2026, 17:30
+* Slicing Import Screen ✅
+* Analisis response api mana saja yang berubah w/ mas angga if available (Not ready). 🔄
+[06/05/26, 6.16.51 PM] Vincent kai: Checkout 06 Mei 2026, 17:30
+* Update UI Re-Open Transmittal sama seperti di production 🔄
+[07/05/26, 8.23.51 AM] Harry kai: Check In
+07 Mei 2026, 08:23
+
+*Consdoc*
+- CRUD new directories in shared drive ⏳
+- Explore extension Autodesk⏳
+- Fix annotation type layering priority ⌛️
+[07/05/26, 8.25.16 AM] Andre Dev: Check In 
+07 Mei 2026, 08:25
+
+*Consdoc*
+- Readjust `module-notification`, that has toggle on/off by user project/company scoped
+- Mapping out all notifications events
+[07/05/26, 8.28.20 AM] Angga Dev: Check In
+7 Mei 2026 08:28
+
+- Deployment into dev server
+- ⁠deliver API spec to Fe
+- ⁠Continue implementasi fitur duplikasi progress ‎<This message was edited>
+[07/05/26, 8.29.41 AM] Vincent kai: Checkin
+07 Mei 2026, 08:28
+
+*Consdoc*
+* Icon initial user yg belum approve di posisi inbox (kalau user sudah respon akan hilang iconnya)
+[07/05/26, 8.32.08 AM] Andika kai: Checkin 6 Mei 2026, 08:33
+
+Consdoc
+- Continue research Autodesk 3d annotation ‎<This message was edited>
+[07/05/26, 8.33.02 AM] Ikky kai: Check In
+07 Mei 2026, 08:30
+
+* Deliver and integration API ready
+[07/05/26, 5.39.48 PM] Andika kai: Checkout 7 Mei 2026, 17:37
+
+Consdoc
+- Research autodesk 3d annotation ✅
+- Try adding pin before draw annotation in 3d file 🔃
+[07/05/26, 5.43.07 PM] Ikky kai: Check Out
+07 Mei 2026, 17:40
+
+*Conspact - Actionplan Plus*
+* Deliver and integration API ready (pending mas Angga) 🔄
+* Done Slicing Actionplan Plus✅
+[07/05/26, 5.44.43 PM] Angga Dev: Check Out
+7 Mei 2026 17:44
+
+- ✅ Deployment into dev server
+- ✅ ⁠Continue implementasi fitur duplikasi progress
+- ⁠⁠🔄 deliver API spec to Fe
+[07/05/26, 5.48.21 PM] Andre Dev: Check Out
+07 Mei 2026, 17:47
+*Consdoc*
+✅ Readjust `module-notification`, that has toggle on/off by user project/company scoped
+✅ Mapping out all notifications events
+🔃 Revoke/Delete Transmittal
+[07/05/26, 5.51.37 PM] Harry kai: Check Out
+07 Mei 2026, 17:51
+
+*Consdoc*
+- CRUD new directories in shared drive ⏳
+- Explore extension Autodesk✅
+- Fix annotation type layering priority ✅ ‎<This message was edited>
+[07/05/26, 5.53.49 PM] Vincent kai: Checkout
+07 Mei 2026, 17:30
+
+Consdoc
+* Icon initial user yg belum approve di posisi inbox (kalau user sudah respon akan hilang iconnya) 🔄 (60%)
+* File yang sudah di approved secara internal masih bisa di delete, harusnya file yang sudah di approved tidak bisa di delete ✅
+[08/05/26, 8.29.34 AM] Harry kai: Check In
+08 Mei 2026, 08:28
+
+*Consdoc*
+- Research Annotation Pin support in Autodesk Viewer
+[08/05/26, 8.30.41 AM] Andre Dev: Check In
+08 Mei 2026, 08:30
+*Consdoc*
+- Revoke/Delete Transmittal ‎<This message was edited>
+[08/05/26, 8.31.16 AM] Ikky kai: Check In
+08 Mei 2026, 08:30
+
+*Conspact plus*
+- Deliver api ready
+[08/05/26, 8.33.23 AM] Andika kai: Check-in 8 Mei 2026, 08:33
+
+Consdoc
+- Support adding pin on annotation Autodesk 3d and setup data model in backend for required frontend ‎<This message was edited>
+[08/05/26, 8.48.42 AM] Vincent kai: Check-in 8 Mei 2026 08:46
+
+Consdoc
+* Icon initial user yg belum approve di posisi inbox (kalau user sudah respon akan hilang iconnya)
+[08/05/26, 1.20.03 PM] Angga Dev: Check-in 
+8 Mei 2026 13.20
+
+- Deliver Api Spec
+- ⁠implement man power plan
+[08/05/26, 5.37.38 PM] Andre Dev: Check Out
+08 Mei 2026, 17:36
+
+*Consdoc*
+✅ Revoke/Delete Transmittal
+🔃 Activity Logging, for all features transmittal ‎<This message was edited>
+[08/05/26, 5.42.01 PM] Andika kai: Check Out
+08 Mei 2026, 17:41
+
+Consdoc
+- Support adding pin on annotation Autodesk 3d and setup data model in backend for required frontend 🔃 ‎<This message was edited>
+[08/05/26, 5.42.29 PM] Ikky kai: Check Out
+08 Mei 2026, 17:35
+
+*Conspact plus*
+- Deliver api ready ✅
+[08/05/26, 6.05.03 PM] Vincent kai: Checkout
+08 Mei 2026, 17:50
+
+*Consdoc*
+* ⁠Icon initial user yg belum approve di posisi inbox (kalau user sudah respon akan hilang iconnya) ✅
+* fix edit transmittal tidak boleh muncul di status open ✅
+* ⁠after create menuju detail transmittal yang di create 🔄
+[08/05/26, 6.07.38 PM] Harry kai: Check Out
+08 Mei 2026, 18:00
+
+*Consdoc*
+- Research Annotation Pin support in Autodesk Viewer
+- ⁠Fix bugs on zoom in/out in transmittal document ✅ ‎<This message was edited>
+[08/05/26, 9.31.54 PM] Angga Dev: Check Out
+8 Mei 2026, 21.29
+
+*Conspact (liteBE) — 8 Mei 2026:*
+
+✅Penambahan Currency di Project
+
+*Conspact Plus — 8 Mei 2026:*
+
+✅Delivery MVP API spec features
+✅ Implementasi manajemen manpower dan tipe pekerja (CRUD + update skema database)
+✅ Pengembangan fitur action plan: relasi parent-child, approval progress, dan data progress tambahan
+[11/05/26, 8.34.43 AM] Ikky kai: Check In
+11 Mei 2026, 08:30
+
+*Conspact*
+* Implement currency (create project, update project, penyesuaian di input mata uang)
+
+*Conspact plus*
+- Create new branch from branch conspact ‎<This message was edited>
+[11/05/26, 8.36.40 AM] Andre Dev: Check In
+11 Mei 2026, 08:35
+
+*Consdoc*
+- Activity Logging, for all features transmittal
+- Review new design for Permission Team project
+[11/05/26, 8.43.55 AM] Andika kai: Check-in
+11 Mei 2026, 08:44
+
+Consdoc
+- Support adding pin on annotation Autodesk 3d and setup data model in backend for required frontend 🔃
+[11/05/26, 8.50.13 AM] Vincent kai: ‎This message was deleted.
+[11/05/26, 8.50.39 AM] Vincent kai: Checkin
+11 Mei 2026, 08:50
+ Consdoc
+* Integrasi Revoke Transmittal Submitter ‎<This message was edited>
+[11/05/26, 8.59.35 AM] Angga Dev: Check In
+11 Mei 2026 09:00
+
+- Implement Material Plan
+- ⁠Merge inventori plus ‎<This message was edited>
+[11/05/26, 9.01.14 AM] Harry kai: Check In
+11 Mei 2026, 08:50
+
+*Consdoc*
+- Add Export Functionality for Autodesk Markups
+- Simplify Annotation Style Options in Autodesk Markup Editor
+[11/05/26, 5.40.10 PM] Ikky kai: Check out
+11 Mei 2026, 17:40
+
+*Conspact*
+✅ Implement currency (create project, update project, penyesuaian di input mata uang) 
+* Added project country and currency support for create and update project flows.
+* Added country and currency selection fields using helper APIs.
+* Stored project country and currency in global selected project atom.
+* Displayed Country and Currency in project detail.
+* Updated currency formatting to follow selected project currency.
+
+*Conspact plus*
+- Create new branch from branch conspact (Pending) ‎<This message was edited>
+[11/05/26, 5.42.40 PM] Vincent kai: Checkout 11 Mei 2026, 17:42
+
+*Consdoc*
+* Fix Revoke Transmittal Submitter ✅
+* ⁠Icon user yang belom respon 🔄 ‎<This message was edited>
+[11/05/26, 5.49.08 PM] Angga Dev: Chekout
+11 Mei 17.46
+
+✅ improve AI agent progress estimation
+✅ Penambahan properti project 
+🔄 Merge Inventori plus
+[11/05/26, 5.54.06 PM] Andika kai: Check-out
+11 Mei 2026, 17:54
+
+Consdoc
+- Support adding pin on annotation Autodesk 3d and setup data model in backend for required frontend (waiting pin feature complete being implemented on frontend) 🔃
+[11/05/26, 5.57.44 PM] Andre Dev: Check Out
+11 Mei 2026, 17:56
+
+*Consdoc*
+🔄 Activity Logging, for all features transmittal
+✅ Review QA new design for Permission Team project
+✅ Implement Transmittal Labelling group
+[11/05/26, 6.01.52 PM] Harry kai: Check Out
+11 Mei 2026, 18:00
+
+*Consdoc*
+- Add Export Functionality for Autodesk Markups ✅
+- Simplify Annotation Style Options in Autodesk Markup Editor ✅
+[12/05/26, 8.26.39 AM] Ikky kai: Check in
+12 Mei 2026, 08:25
+
+*Conspact*
+* Testing staging apk w/ mas Pras
+
+*Conspact plus*
+- Create new branch from branch conspact (Waiting release new version)
+[12/05/26, 8.31.39 AM] Andre Dev: Check In
+12 Mei 2026, 08:31
+
+*Consdoc*
+- Activity Logging, for all features transmittal
+[12/05/26, 8.36.26 AM] Vincent kai: Checkin 11 Mei 2026, 08:35
+
+Consdoc
+* Icon user yang belum response
+* ⁠Grouping assign user
+[12/05/26, 8.37.20 AM] Andika kai: Check-in
+12 Mei 2026, 08:37
+
+Consdoc
+- Setup data, service, and endpoint for 3d annotation
+[12/05/26, 8.44.13 AM] Harry kai: Check-in
+12 Mei 2026, 08:40
+
+Consdoc
+- Pin annotation implementation
+- Fix scroll with trackpad in transmittal annotation ‎<This message was edited>
+[12/05/26, 9.39.14 AM] Angga Dev: Check In
+12 Mei 2026 09:38
+
+- Continue Implement Material Plan
+- ⁠Continue Merge inventori plus ‎<This message was edited>
+[12/05/26, 1.00.57 PM] Priska Admin Kai: ‎You added Priska Admin Kai
+[12/05/26, 5.35.01 PM] Ikky kai: Check out
+12 Mei 2026, 17:30
+
+*Conspact*
+* Bugs fix in currency input ✅
+* Testing staging apk w/ mas Pras (Pending)
+
+*Conspact plus*
+- Create new branch from branch conspact waiting release new version, (Pending)
+[12/05/26, 5.35.59 PM] Harry kai: Check Out
+12 Mei 2026, 17:35
+
+Consdoc
+- Pin annotation implementation ⌛️
+- Fix scroll with trackpad in transmittal annotation ✅
+[12/05/26, 5.37.27 PM] Angga Dev: Check Out
+12 Mei 2026 17:36
+
+- ✅ Implement Material Plan
+- ⁠✅ Merge inventori plus
+- ⁠🔄 Implement Daily Report
+[12/05/26, 5.59.48 PM] Andika kai: Check-out
+12 Mei 2026, 17:59
+
+Consdoc
+- Setup data, service, and endpoint for 3d annotation ✅
+
+Whatsapp Service
+- fix mysql issue max_user_connections by increase concurrent user connections ✅
+[12/05/26, 6.00.54 PM] Vincent kai: Checkout 12 mei 2026 17:35
+
+•⁠  ⁠Icon user yang belum response ✅
+•⁠  ⁠⁠Grouping assign user 🔄
+[12/05/26, 6.32.56 PM] Andre Dev: Check Out
+12 Mei 2026, 18:31
+
+*Consdoc*
+🔃 Activity Logging, for all features transmittal
+✅ Hotfix transmittal cant view Annotation
+✅ Improvement UI User Account
+[13/05/26, 8.33.41 AM] Andika kai: Check-in
+13 Mei 2026, 08:33
+
+Consdoc
+- support frontend for integrating with autodesk 3d annotation API
+[13/05/26, 8.36.08 AM] Ikky kai: Check in
+13 Mei 2026, 08:35
+
+*Conspact*
+* Testing staging apk w/ mas Pras
+
+*Conspact plus*
+- Create new branch from branch conspact (Waiting release new version)
+- Preparing playstore
+[13/05/26, 8.36.48 AM] Angga Dev: Check In
+13 Mei 2026 08:35
+
+- Continue Report daily
+[13/05/26, 8.49.53 AM] Andre Dev: Check In
+13 Mei 2026, 08:49
+
+*Consdoc*
+- Continue activity Logging, for all features transmittal
+[13/05/26, 8.51.12 AM] Vincent kai: Checkin 13 May 2026, 08:40
+
+* Grouping assign User
+[13/05/26, 9.03.37 AM] Harry kai: Check In
+13 Mei 2026, 08:58
+
+*Consdoc*
+- Wiring annotation 3d (pin, annotation)
+[13/05/26, 5.41.17 PM] Angga Dev: Check Out
+13 Mei 2026 17:41
+
+Conspact plus
+- ⁠✅ Implement Daily Report
+
+Conspact
+- ⁠✅ Fix bug ⁠Bobot di data invoice [Finance]
+- ⁠✅ Fix bug ⁠Tidak bisa melakukan pelunasan [Finance]
+- ⁠✅ Fix bug ⁠Iktisar Data pengeluaran dan pemasukan tidak valid [Finance]
+- ⁠✅ Fix bug ⁠Defect on repair update [Defect]
+- ⁠✅ Fix AI agent detection progress [Staging] ‎<This message was edited>
+[13/05/26, 5.41.27 PM] Andika kai: Check-out
+13 Mei 2026, 17:41
+
+Consdoc
+- support frontend for integrating with autodesk 3d annotation API 🔃
+[13/05/26, 5.42.06 PM] Ikky kai: Check out
+13 Mei 2026, 17:40
+
+*Conspact*
+* Testing staging apk w/ mas Pras ✅
+* Implement get currency for all screen ✅
+* Matching logic audit finance from api (bugs fix) ✅ 
+
+*Conspact plus*
+- Create new branch from branch conspact (Waiting release new version) 🔄
+- Preparing playstore 🔄
+[13/05/26, 5.53.25 PM] Andre Dev: Check Out
+13 Mei 2026, 17:51
+
+*Consdoc*
+✅ Activity Logging, for all features transmittal
+✅ Fix bugs overlays annotation during merge, sharp package is failing to load
+[13/05/26, 5.54.49 PM] Vincent kai: Checkout 13 May 2026, 17:43
+
+* Grouping assign User 🔄
+[13/05/26, 5.55.41 PM] Harry kai: Check Out
+13 Mei 2026, 17:55
+
+*Consdoc*
+- Wiring annotation 3d (pin, annotation) ⏳
+- ⁠Troubleshoot bugs overlay annotation ✅
+- ⁠Fix floating toolbar cannot scroll ✅
+[15/05/26, 8.41.49 AM] Andika kai: Check-in
+15 Mei 2026, 08:41
+
+Consdoc
+- support frontend for integrating with autodesk 3d annotation API + discuss QA feedback
+[15/05/26, 8.42.51 AM] Andre Dev: Check In
+15 Mei 2026, 08:42
+
+*Consdoc*
+- create flow template approval assignment for managed by role Admin
+[15/05/26, 8.45.14 AM] Vincent kai: Checkin 15 Mei 2026, 08:44
+
+*Consdoc*
+* FE: Activity Logging, for all features transmittal
+[15/05/26, 8.46.30 AM] Ikky kai: Check in
+15 Mei 2026, 08:45
+
+*Conspact*
+* Deploy new version
+
+*Conspact plus*
+- Create new branch from branch conspact
+- Preparing new package id and re-setup
+[15/05/26, 8.59.26 AM] Harry kai: Check-in
+15 Mei 2026, 08:58
+
+Consdoc
+- Discuss QA feedback
+- ⁠Wiring 3d annotation api (pin, markup)
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image
+- ⁠Improve unique file name when upload file in drive
+[15/05/26, 10.08.12 AM] Angga Dev: Check In
+15 Mei 2026 10.07
+
+- Implementasi merge defect plus
+[15/05/26, 5.44.42 PM] Andika kai: Check-out
+15 Mei 2026, 17:44
+
+Consdoc
+- support frontend for integrating with autodesk 3d annotation API + discuss QA feedback ✅
+- adding new feature for autodesk 3d annotation such as marking as resolved an annotation and set category for each annotation ✅
+[15/05/26, 6.00.46 PM] Ikky kai: Check out
+15 Mei 2026, 17:50
+
+*Conspact*
+* Deploy new version (tonight)
+* Multiple currency handle ✅
+
+*Conspact plus*
+- Create new branch from branch conspact
+- Preparing new package id and re-setup
+[15/05/26, 6.00.58 PM] Andre Dev: Check Out
+15 Mei 2026, 18:00
+
+*Consdoc*
+🔃 Create flow template approval assignment for managed by role Admin
+✅ Filter transmittal support last recent by checker approval ‎<This message was edited>
+[15/05/26, 6.05.08 PM] Harry kai: Check Out
+15 Mei 2026, 18:00
+
+Consdoc:
+- Discuss QA feedback ✅
+- ⁠Wiring 3d annotation api (pin, markup) ✅
+- tambah fitur mark resolved dan filter resolved/unresolved (bisa) 🔄
+- fitur export anotasi ke pdf secara custom yang mirip conspact contohnya (bisa) 🔄
+- ada anotasi yang tidak sesuai thumbnail (bug) ✅
+- issue dan markups jadikan menu baru 🔄
+- tambah fitur move pin 🔄
+- 1 pin hanya bisa 1 anotasi markup ✅
+- pin ganti ke avatar 🔄
+- nambah guard di 1 pin 1 anotasi dan hanya 1 pin dan isinya hanya bisa dimodify oleh pembuat pin 🔄
+- nambahin kategori per bagian 3d/2d model dengan custom input (di form drafting markup nambah field baru) ✅
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image 🔄
+- ⁠Improve unique file name when upload file in drive✅
+[15/05/26, 6.19.07 PM] Vincent kai: Checkout 15 Mei 2026, 17:35
+
+Consdoc
+* integrasi Log Activity 🔄
+* ⁠Integrasi Icon User yang belom respon 🔄
+[15/05/26, 7.13.07 PM] Angga Dev: Check Out
+15 Mei 2026 19:11
+
+- ✅Implementasi merge defect plus
+- ⁠✅Refactor code
+[18/05/26, 8.07.55 AM] Harry kai: Check In
+18 Mei 2026, 08:07
+
+Consdoc:
+- tambah fitur mark resolved dan filter resolved/unresolved (bisa) 🔄
+- fitur export anotasi ke pdf secara custom yang mirip conspact contohnya (bisa) 🔄
+- issue dan markups jadikan menu baru 🔄
+- tambah fitur move pin 🔄
+- pin ganti ke avatar 🔄
+- nambah guard di 1 pin 1 anotasi dan hanya 1 pin dan isinya hanya bisa dimodify oleh pembuat pin 🔄
+- Pin resolve status
+Conspact
+- ⁠Troubleshoot tools pdf-to-image 🔄
+[18/05/26, 8.18.20 AM] Andre Dev: Check In
+18 Mei 2026, 08:17
+
+*Consdoc*
+- Wiring/slicing notification setting in account profile
+- Continue create flow template approval assignment for managed by role Admin
+[18/05/26, 8.26.29 AM] Angga Dev: Check In
+18 Mei 2026 08:26
+
+- Implementasi Notification
+[18/05/26, 8.27.06 AM] Vincent kai: Checkin 18 Mei 2026 08:26
+
+* Finishing Icon User
+[18/05/26, 8.34.52 AM] Andika kai: Check-in
+18 Mei 2026 08:34
+
+Consdoc
+- support frontend for new feature on 3d annotation
+[18/05/26, 8.48.23 AM] Ikky kai: Check In
+18 Mei 2026 08:45
+
+- Make new repo
+- Setup for new package id
+[18/05/26, 5.39.03 PM] Andika kai: Check-out
+18 Mei 2026 17:38
+
+Consdoc
+- support frontend for new feature on 3d annotation 🔃
+[18/05/26, 5.43.32 PM] Harry kai: Check Out
+18 Mei 2026, 17:42
+
+Consdoc:
+- tambah fitur mark resolved dan filter resolved/unresolved (bisa) ✅
+- fitur export anotasi ke pdf secara custom yang mirip conspact contohnya (bisa) 🔄
+- issue dan markups jadikan menu baru 🔄
+- tambah fitur move pin 🔄
+- pin ganti ke avatar 🔄
+- nambah guard di 1 pin 1 anotasi dan hanya 1 pin dan isinya hanya bisa dimodify oleh pembuat pin ✅
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image 🔄
+[18/05/26, 5.46.00 PM] Andre Dev: Check Out
+18 Mei 2026, 17:45
+
+*Consdoc*
+✅ Wiring/slicing notification setting in account profile
+🔃 Continue create flow template approval assignment for managed by role Admin
+[18/05/26, 5.54.07 PM] Ikky kai: Check Out
+18 Mei 2026 17:50
+
+- Create repository from conspact repo ✅
+- Change package id in new app and still running ✅
+- Setup keystore and firebase for push notification ✅
+[18/05/26, 6.02.24 PM] Vincent kai: Checkout 18 Mei 2026 18:01
+
+*Consdoc*
+* Feat: icon user yang belum response ✅
+* ⁠Feat: Log activity transmittal 🔄
+* ⁠Fix: Email transmittal direct to transmittal terpilih ✅
+[18/05/26, 6.23.17 PM] Angga Dev: Check Out
+18 Mei 2026 18:23
+
+- 🔄Implementasi Notification
+[19/05/26, 8.11.07 AM] Harry kai: Check In
+19 Mei 2026, 08:11
+
+Consdoc:
+- fitur export anotasi ke pdf secara custom yang mirip conspact contohnya (bisa) 🔄
+- issue dan markups jadikan menu baru 🔄
+- Replies Markup 🔄
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image 🔄 ‎<This message was edited>
+[19/05/26, 8.21.32 AM] Vincent kai: Checkin 19 Mei 2026, 08:21
+
+*Consdoc*
+* Feat: Log activity transmittal
+[19/05/26, 8.22.29 AM] Angga Dev: Check In
+19 Mei 2026 08:22
+
+- Continue Implementasi Notification
+[19/05/26, 8.22.39 AM] Andre Dev: Check In
+19 Mei 2026, 08:22
+
+*Consdoc*
+- Continue create flow template approval assignment for managed by role Admin
+- Review email sender transmittal
+[19/05/26, 8.22.44 AM] Ikky kai: Check In
+19 Mei 2026, 08:20
+
+* Submit to apple and google store
+* Start re-integrate old features with new API
+[19/05/26, 8.35.16 AM] Andika kai: Check-in
+19 Mei 2026 08:34
+
+Consdoc
+- support frontend for wiring on 3d annotation
+
+Pusdatin chatbot
+- support reconnecting session
+[19/05/26, 5.33.50 PM] Angga Dev: Check Out
+19 Mei 2026 17:33
+
+- 🔄Implementasi Notification [On Hold]
+- ⁠✅ investigasi penyebab lambat nya request di server
+- ⁠✅ Add service gotenberg
+- ⁠✅ Migrasi report download using gotenberg
+[19/05/26, 5.36.52 PM] Ikky kai: Check Out
+19 Mei 2026, 17:30
+
+* Submit to apple and google store 🔄
+* Start re-integrate old features with new API 🔄
+* Fix issue force close in ios (screen edit profile, edit/ add project, edit level 2) ✅
+* Fix force colse anotation in andriod✅
+* Handling multiple currency from backend (IDR (Indonesia), MYR (Malaysia), HKD (Hong Kong), USD (United States), PHP (Philippines), SGD (Singapore), THB (Thailand), VND (Vietnam), JPY (Japan), KRW (South Korea), CNY (China), TWD (Taiwan))✅
+[19/05/26, 5.40.41 PM] Andre Dev: Check Out
+19 Mei 2026, 17:40
+
+*Consdoc*
+🔄 (On-hold, change priority) Continue create flow template approval assignment for managed by role Admin
+✅ Review email sender transmittal
+✅ Fix UFW firewall on Server
+🔄 Migrating/refactor puppeter for generate transmittal-form, and add flow download queue
+[19/05/26, 5.41.25 PM] Andika kai: Check-out
+19 Mei 2026 17:42
+
+Consdoc
+- support frontend for wiring on 3d annotation ✅
+
+Pusdatin chatbot
+- support reconnecting session 🔃 ‎<This message was edited>
+[19/05/26, 6.42.44 PM] Vincent kai: Checkout 19 Mei 2026 17:30
+
+*Consdoc*
+- feat: Log Activity Transmittal 🔄
+
+*Conspact*
+- Support IOS fixing with iki on Edit action plan ✅
+[19/05/26, 6.49.52 PM] Harry kai: Check Out
+19 Mei 2026, 18:50
+
+Consdoc:
+- fitur export anotasi ke pdf secara custom yang mirip conspact contohnya (bisa) 🔄
+- issue dan markups jadikan menu baru ✅
+- Replies Markup ✅
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image ⏳ ‎<This message was edited>
+[20/05/26, 8.02.07 AM] Andika kai: Check-in
+20 Mei 2026 08:01
+
+Consdoc
+- implement and refactore 3d annotation based on product&qa discussion for shared drive
+
+Pusdatin chatbot
+- meet & support reconnecting session with pusdatin team
+[20/05/26, 8.04.04 AM] Harry kai: Check Out
+20 Mei 2026, 08:03
+
+Consdoc:
+- ⁠Refactored pin 3d annotation based on new design
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image ⏳
+[20/05/26, 8.21.36 AM] Ikky kai: Check In
+20 Mei 2026, 08:20
+
+* Submit to apple and google store
+* Start re-integrate old features with new API
+[20/05/26, 8.31.10 AM] Andre Dev: Check In
+20 Mei 2026, 08:30
+
+*Consdoc*
+- Migrating/refactor puppeter for generate transmittal-form, and add flow download queue
+[20/05/26, 8.32.29 AM] Vincent kai: Checkin 20 Mei 2026, 08:30
+
+*Consdoc*
+* Log activity transmital
+[20/05/26, 9.00.55 AM] Angga Dev: Check In
+20 Mei 2026 09:00
+
+- Continue Implementasi Notification
+[20/05/26, 5.50.38 PM] Andika kai: Check-out
+20 Mei 2026 17:50
+
+Consdoc
+- implement and refactore 3d annotation based on product&qa discussion for shared drive ✅
+
+Pusdatin chatbot
+- meet & support reconnecting session with pusdatin team 🔃
+
+Koni Chatbot
+- migrate PDF download via puppeteer to gotenberg 🔃
+[20/05/26, 6.05.19 PM] Andre Dev: Check Out
+20 Mei 2026, 18:05
+
+*Consdoc*
+✅ Migrating/refactor puppeter for generate transmittal-form, and refactor flow download /w queue
+✅ Download Queues panel on user-screen for tracking/list-recent generated document downloads ‎<This message was edited>
+[20/05/26, 6.05.56 PM] Harry kai: Check Out
+20 Mei 2026, 18:05
+
+Consdoc:
+- ⁠Refactored pin 3d annotation based on new design ⏳
+
+Conspact
+- ⁠Troubleshoot tools pdf-to-image ⏳
+[20/05/26, 6.06.21 PM] Ikky kai: Check Out
+20 Mei 2026, 18:03
+
+* Submit to apple and google store (Pending)
+* Start re-integrate old features with new API (Pending)
+* Meeting QA and improvement w/. mas pras, mas angga ✅
+* Implement multilanguage for all modul conspact ✅
+* Volume not adjust if user using AI recomendation progress when add progress ✅
+[20/05/26, 6.07.28 PM] Vincent kai: Checkout
+20 Mei 2026, 18:05
+
+*Consdoc*
+* Fix forgot password whitescreen ✅
+* ⁠Log activity transmittal 🔄
+[20/05/26, 6.22.40 PM] Angga Dev: Chekout 
+20 Mei 17:35
+
+- ✅ Fix layout Report
+- ⁠✅ Fix Defect+ report download (bad gateway)
+- ⁠✅ Notifikasi cobapct Plus
+[21/05/26, 8.21.54 AM] Ikky kai: Check In
+21 Mei 2026, 08:20
+
+* Start re-integrate old features with new API
+[21/05/26, 8.22.22 AM] Harry kai: Check In
+21 Mei 2026, 08:21
+
+Consdoc:
+- ⁠Refactored pin 3d annotation based on new design 
+- ⁠Add location in form markup
+[21/05/26, 8.26.23 AM] Angga Dev: Check In
+21 Mei 2026, 08:23
+
+- fix bug on finance modul
+- ⁠fix bug s curve label & filter by type
+- ⁠implementasi filter by all week
+[21/05/26, 8.27.40 AM] Andre Dev: Check In
+21 Mei 2026, 08:26
+
+*Consdoc*
+- Continue create flow template approval assignment for managed by role Admin
+- Continue wiring/integrate user account permission settings
+[21/05/26, 8.29.49 AM] Andika kai: Check-in
+21 Mei 2026 08:30
+
+Consdoc
+- support frontend for new feature on 3d annotation
+
+Koni Chatbot & Verification Check service
+- migrate PDF download via puppeteer to gotenberg
+[21/05/26, 8.32.51 AM] Vincent kai: Checkin 21 Mei 2026, 08:31
+
+*Consdoc*
+* continue Log activity transmittal
+* ⁠fix notification settings account
+[21/05/26, 5.36.59 PM] Harry kai: Check Out
+21 Mei 2026, 17:36
+
+Consdoc:
+- ⁠Refactored pin 3d annotation based on new design ✅
+- ⁠Add location in form markup ✅
+
+Conspact
+- Multiple language in verification checklist page ✅
+[21/05/26, 5.40.07 PM] Andika kai: Check-out
+21 Mei 2026 17:39
+
+Consdoc
+- support frontend for new feature on 3d annotation ✅
+
+Koni Chatbot & Verification Check service
+- migrate PDF download via puppeteer to gotenberg ✅
+
+Verification Check Service
+- apply multi languages on download report ✅
+[21/05/26, 5.41.08 PM] Ikky kai: Check Out
+21 Mei 2026, 17:40
+
+* Re integrate login API ✅
+- ⁠implementasi filter by all week ✅
+- Completed implement all multilanguage (minimum english based) ✅
+[21/05/26, 5.41.19 PM] Vincent kai: Checkout 21 Mei 2026, 17:40
+
+Consdoc
+•⁠  ⁠continue Log activity transmittal ✅
+[21/05/26, 5.47.43 PM] Angga Dev: Check Out
+21 Mei 2026, 17:47
+
+- ✅ fix bug on finance modul
+- ✅ ⁠fix bug s curve label & filter by type
+- ⁠✅ implementasi filter by all week
+[21/05/26, 5.55.32 PM] Andre Dev: Check Out
+21 Mei 2026, 17:55
+
+*Consdoc*
+✅ Create flow template approval assignment for managed by role Admin
+✅ Continue wiring/integrate user account permission settings
+[22/05/26, 8.39.22 AM] Andika kai: Check-in
+22 Mei 2026 08:39
+
+Consdoc
+- enhance AI chatbot
+[22/05/26, 8.39.48 AM] Ikky kai: Check In
+22 Mei 2026, 08:39
+
+* re-integrate old features with new API
+[22/05/26, 9.04.52 AM] Harry kai: Check-in
+22 Mei 2026 09:01
+
+*Consdoc*
+- Preparation u/ demo : Analytical dashboard untuk publish drive di checker / approver, tidak menampilkan jumlah / analytical document
+- Deskripsi double
+- Starting awal lama ketika membuka details transmittal di consdoc : tambahkan loading sign
+- Mode Tab -> scroll dan pin 2 jari tidak berfungsi serta anotasi dengan tab tidak bisa (android)
+- QA : Log activity --> rubah design dan list log activity 
+- Opened Transmittal --> Hilangkan
+- Annotasi masuknya ke history
+[22/05/26, 9.05.36 AM] Vincent kai: ‎This message was deleted.
+[22/05/26, 9.06.04 AM] Vincent kai: ‎This message was deleted.
+[22/05/26, 9.07.30 AM] Vincent kai: Checkin 22 Mei 2026 09:05
+
+*Consdoc*
+* fix fitur reset password not available to select
+* add grouping assign to
+[22/05/26, 9.26.34 AM] Andre Dev: Check In
+22 Mei 2026, 09:24
+
+*Consdoc*
+- Transmittal Insight add Label for quick-lookup
+- Fix bug company auto-assign when created
+[22/05/26, 5.38.51 PM] Angga Dev: Check In
+22 Mei  20206, 17.37
+
+- Fix AI agent progress & defect
+- ⁠Fix Curva S label / data filter
+[22/05/26, 5.39.12 PM] Andika kai: Check-out
+22 Mei 2026 17:39
+
+Consdoc
+- enhance AI chatbot 🔃
+[22/05/26, 5.39.22 PM] Vincent kai: ‎This message was deleted.
+[22/05/26, 5.41.25 PM] Vincent kai: Checkout 22 Mei 2026 17:36
+
+Consdoc
+- Fix reset password not available to select ✅️
+- add group suggestion assign to 🔄
+[22/05/26, 5.41.52 PM] Harry kai: Check-out
+22 Mei 2026 17:39
+
+*Consdoc*
+- Preparation u/ demo : Analytical dashboard untuk publish drive di checker / approver, tidak menampilkan jumlah / analytical document⏳
+- Deskripsi double ⏳
+- Starting awal lama ketika membuka details transmittal di consdoc : tambahkan loading sign ✅
+- Mode Tab -> scroll dan pin 2 jari tidak berfungsi serta anotasi dengan tab tidak bisa (android) ✅
+- QA : Log activity --> rubah design dan list log activity ⏳
+- Opened Transmittal --> Hilangkan⏳
+- Annotasi masuknya ke history ⏳
+[22/05/26, 6.00.46 PM] Andre Dev: Check Out
+22 Mei 2026, 18:00
+
+*Consdoc*
+✅ Download panel, for `Transmittal Form` and `Document Annotations`
+✅ Account settings, notification permission toggle for Transmittal (+support deeplink click)
+✅ Transmittal Insight add Label for quick-lookup
+✅ Add new filter fields `Recent activity Checker(s)` and `Recent activity Approver(s)`
+✅ Improvement UI Consdoc
+[22/05/26, 6.09.20 PM] Ikky kai: Check TOut
+22 Mei 2026, 18:00
+
+* re-integrate old features with new API 🔄
+* Fix VND input currency ✅
+* Takeout flag Indonesia ✅
+[23/05/26, 1.26.05 AM] Angga Dev: Check Out
+23 Mei  20206, 01.25
+
+- ✅ Fix AI agent progress & defect
+- ⁠✅ Fix Curva S label / data filter
+[25/05/26, 7.58.26 AM] Harry kai: Check-in
+25 Mei 2026 07:58
+
+*Consdoc*
+- Preparation u/ demo : Analytical dashboard untuk publish drive di checker / approver, tidak menampilkan jumlah / analytical document⏳
+- Deskripsi double ⏳
+- QA : Log activity --> rubah design dan list log activity ⏳
+- Opened Transmittal --> Hilangkan⏳
+- Annotasi masuknya ke history ⏳
+[25/05/26, 8.17.25 AM] Ikky kai: Check-in
+25 Mei 2026 08:17
+
+*Conspact plus*
+- re integrate old feature
+[25/05/26, 8.24.06 AM] Andre Dev: Check In
+25 Mei 2026, 08:24
+
+*Consdoc*
+- Troubleshoot document extraction after uploads, sometimes failing due to unknown
+- Adjust report excel output based on feedback TCM ‎<This message was edited>
+[25/05/26, 8.34.05 AM] Vincent kai: Checkin 25 Mei 2026 08:33
+
+Consdoc
+- Fitur Reset Password, botton reset password not availible to select
+- Preparation u/ demo : Ketika view transmittal yang paling update (notifikasi masuk),  langsung ke "BLANK PAGE"
+[25/05/26, 8.39.48 AM] Andika kai: Check-in
+25 Mei 2026 08:39
+
+Consdoc
+- enhance AI chatbot
+[25/05/26, 9.13.31 AM] Angga Dev: Checkin 
+25 Mei 09.13
+
+- Fix bug filter tabular when allweek
+[25/05/26, 5.46.37 PM] Ikky kai: Checkout
+25 Mei 2026 17:45
+
+Implement re-integration for login flow ✅
+* Adjust login response to include the takeout package property
+* Update all global variable assignments after login
+* Refactor the “Remember Me” mechanism after successful login
+* Implement the new response handling to keep the app session active while the application is running
+Submit google play console "Conspact+" ✅
+[25/05/26, 5.47.52 PM] Harry kai: Check-out
+25 Mei 2026 17:47
+
+*Consdoc*
+- Preparation u/ demo : Analytical dashboard untuk publish drive di checker / approver, tidak menampilkan jumlah / analytical document ✅
+- Deskripsi double ✅
+- QA : Log activity --> rubah design dan list log activity ⏳
+[25/05/26, 5.50.12 PM] Andika kai: Check-out
+25 Mei 2026 17:50
+
+Consdoc
+- enhance AI chatbot 🔃
+[25/05/26, 5.52.35 PM] Angga Dev: Check Out:
+25 Mei 2026, 17:51
+
+- Add MCP for Defect plus retrive data
+- Add MCP for Inventory plus retrive data
+- Fix bug filter tabular when allweek
+[25/05/26, 5.53.15 PM] Andre Dev: Check Out
+25 Mei 2026, 17:50
+
+*Consdoc*
+🔃 Troubleshoot document extraction after uploads, sometimes failing due to unknown
+🔃 Adjust report excel output based on feedback TCM
+✅ Service Transmittal & Document with new Typesense schema for service AI
+✅ API Gateway add Security layer for prevent robots scanning, avoid DDoS and path traversal
+[25/05/26, 6.02.06 PM] Vincent kai: Checkout 25 Mei 2026 17:50
+
+Consdoc
+•⁠  ⁠Fitur Reset Password, botton reset password not availible to select ✅
+•⁠  ⁠Preparation u/ demo : Ketika view transmittal yang paling update (notifikasi masuk),  langsung ke "BLANK PAGE" 🔄
+[26/05/26, 8.41.41 AM] Ikky kai: Check-in
+26 Mei 2026 08:41
+
+*Conspact plus*
+- re integrate old feature
+[26/05/26, 8.43.13 AM] Vincent kai: ‎This message was deleted.
+[26/05/26, 8.43.41 AM] Harry kai: Check-In
+26 Mei 2026 08:43
+
+*Consdoc*
+- QA : Log activity --> rubah design dan list log activity ⏳ ‎<This message was edited>
+[26/05/26, 8.45.01 AM] Vincent kai: Checkin
+26 Mei 2026, 08:44
+
+•⁠  ⁠Preparation u/ demo : Ketika view transmittal yang paling update (notifikasi masuk),  langsung ke "BLANK PAGE" 🔄
+[26/05/26, 8.46.25 AM] Andika kai: Check-in
+26 Mei 2026 08:46
+
+Consdoc
+- enhance AI chatbot + try on frontend
+- discuss 3d annotation
+[26/05/26, 8.50.04 AM] Angga Dev: Check In
+26 Mei 2026 08:48
+
+- Evaluate endpoint conspact plus
+- ⁠Prepare for report action plan plus
+[26/05/26, 9.14.50 AM] Andre Dev: Check In
+26 Mei 2026, 09:14
+
+*Consdoc*
+- Troubleshoot document extraction after uploads, sometimes failing due to unknown
+- Adjust report excel output based on feedback TCM
+[26/05/26, 5.56.42 PM] Andika kai: Check-out
+26 Mei 2026 17:57
+
+Consdoc
+- enhance AI chatbot + try on frontend ✅
+- discuss 3d annotation ✅ ‎<This message was edited>
+[26/05/26, 5.59.55 PM] Andre Dev: Check-out
+26 Mei 2026, 18:00
+
+*Consdoc*
+✅ Troubleshoot document extraction after uploads, sometimes failing due to unknown
+✅ Adjust report excel output based on feedback TCM
+✅ Adjust schema typesense Transmittal/Document
+🔃 Re-factor AI Chat panel ‎<This message was edited>
+[26/05/26, 6.06.05 PM] Angga Dev: Check Out
+26 Mei 2026 18:05
+
+- ✅Evaluate endpoint conspact plus
+- ⁠🔄Prepare for report action plan plus
+- ⁠Brain strom custom plan progress
+[26/05/26, 6.10.05 PM] Vincent kai: ‎This message was deleted.
+[26/05/26, 6.12.39 PM] Vincent kai: Checkout
+26 Mei 2026, 18:09
+
+- Preparation u/ demo : Ketika view transmittal yang paling update (notifikasi masuk),  langsung ke "BLANK PAGE" ✅
+- Re-open transmittal dibuat lebih visible supaya bisa terdeteksi oleh approver / checker 🔄
+[26/05/26, 6.13.23 PM] Ikky kai: Check-ouy
+26 Mei 2026 18:15
+
+*Conspact plus*
+Continue re-integrate old feature ✅
+* Invite member to owner (engineer, inspector, PM, Owner View, Procurement)
+* Revoke member from owner
+* Get all member for all role
+[26/05/26, 7.07.57 PM] Harry kai: Check-Out
+26 Mei 2026 19:00
+
+*Consdoc*
+- QA : Log activity --> rubah design dan list log activity ✅ ‎<This message was edited>
+[29/05/26, 8.27.59 AM] Ikky kai: Check-in
+29 Mei 2026 08:25
+
+*Conspact plus*
+* Continue re-integrate old feature
+[29/05/26, 8.41.19 AM] Andika kai: Check-in
+29 Mei 2026 08:41
+
+Consdoc
+- support frontend for wiring AI feature
+[29/05/26, 8.53.57 AM] Vincent kai: Checkin
+29 Mei 2026 08:53
+
+Consdoc
+- •⁠  ⁠Re-open transmittal dibuat lebih visible supaya bisa terdeteksi oleh approver / checker 🔄
+[29/05/26, 9.02.28 AM] Harry kai: Check-in
+29 Mei 2026 08:59
+
+*Consdoc*
+* Thumbnail preview nya popup dialog saja
+* Fix compare autodesk
+* Research change design toolbar autodesk to match with figma design
+* Log Activity in Shared Drive
+* Log Activity in Document Transmittal
+[29/05/26, 9.49.41 AM] Andre Dev: Check-in
+29 Mei 2026, 09:47
+
+*Consdoc*
+- Re-factor AI Chat panel
+- Install Qdrrsnt, Docling, Tesseract-ocr for parsing embedding documents
+[29/05/26, 5.31.03 PM] Angga Dev: ‎This message was deleted.
+[29/05/26, 5.31.42 PM] Angga Dev: Check In
+29 Mei 2026, 17:30
+
+Defect plus
+•⁠  ⁠Bug defect gambar gk muncul
+
+Conspact 
+•⁠  ⁠⁠bug 400 di summarize ketika project baru dibuat
+
+Inventory
+•⁠  ⁠status masih bahasa indonesia
+
+Conspact plus
+•⁠  ⁠endpoint currency dan country
+•⁠  ⁠⁠bug endpoint create project , hilangkan validate cost
+•⁠  ⁠ketika invite member under owner hilangkan validasi > 1 ‎<This message was edited>
+[29/05/26, 5.40.18 PM] Ikky kai: Check - Out
+29 Mei 2026 17:40
+
+*Conspact plus*
+Continue re-integrate old feature 
+* Takeout subscription when invite member owner feature
+* Implement new payload (owner and contractor) for create and update project
+* Grouping api
+*Conspact*
+* Issue Language
+[29/05/26, 5.40.58 PM] Andika kai: Check-out
+29 Mei 2026 17:41
+
+Consdoc
+- support frontend for wiring AI feature ✅
+[29/05/26, 5.51.41 PM] Harry kai: Check-out
+29 Mei 2026 17:50
+
+*Consdoc*
+* Thumbnail preview nya popup dialog saja
+* Fix compare autodesk
+* Research change design toolbar autodesk to match with figma design
+* Log Activity in Shared Drive ✅
+* Log Activity in Document Transmittal ✅
+[29/05/26, 5.53.00 PM] Andre Dev: Check-out
+29 Mei 2026, 17:52
+
+*Consdoc*
+✅ Re-factor AI Chat panel
+✅ Install and implement Qdrant, Docling, Tesseract-ocr for parsing embedding documents ‎<This message was edited>
+[29/05/26, 5.55.50 PM] Vincent kai: Checkout
+29 Mei 2026 17:52
+
+*Consdoc*
+* button download di disable hanya bisa di lakukan oleh checker/user tertentu ✅️
+* re-open transmittal dibuat lebih visible ✅️
