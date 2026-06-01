@@ -7,4 +7,6 @@ env/
 
 credentials.json
 token.json
+slides_token.json
+openai_key.json
 client_secret_*.json
