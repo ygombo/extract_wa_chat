@@ -3,7 +3,7 @@
 [22/04/26, 11.08.28 AM] Angga Dev: ‎Angga Dev joined using your invite
 [22/04/26, 11.08.32 AM] Yoshua G.: Pagi guys,
 Ada permintaan dari atas utk buat group ini dengan admin nanti.
-[22/04/26, 11.10.24 AM] Yoshua G.: Tujuan nya untuk absen.
+[22/04/26, 11.10.23 AM] Yoshua G.: Tujuan nya untuk absen.
 [22/04/26, 11.13.01 AM] Yoshua G.: Arahan nya:
 - *Check-in jam 8:30 am WIB* tiap hari
 - *Wajib* sertakan task yang akan di kerjakan pada hari tsb 
@@ -16,7 +16,7 @@ Tp di ikuti dulu.
 [22/04/26, 11.15.30 AM] Andre Dev: Baik pak
 [22/04/26, 11.33.17 AM] Harry kai: Baik pa
 [22/04/26, 11.36.08 AM] Yoshua G.: Okeeeh
-[22/04/26, 11.36.19 AM] Priska Admin Konstruksi.AI: ‎You added Priska Admin Konstruksi.AI
+[22/04/26, 11.36.18 AM] Priska Admin Konstruksi.AI: ‎You added Priska Admin Konstruksi.AI
 [22/04/26, 12.56.55 PM] Priska Admin Konstruksi.AI: Halo, selamat siang teman-teman.  
 
 Izin menginfokan, mulai besok mohon bantuannya untuk mengirimkan to do list setiap hari pada saat:  
@@ -920,7 +920,7 @@ Consdoc
 
 - Continue Implement Material Plan
 - ⁠Continue Merge inventori plus ‎<This message was edited>
-[12/05/26, 1.00.57 PM] Priska Admin Kai: ‎You added Priska Admin Kai
+[12/05/26, 1.00.56 PM] Priska Admin Kai: ‎You added Priska Admin Kai
 [12/05/26, 5.35.01 PM] Ikky kai: Check out
 12 Mei 2026, 17:30
 
@@ -1749,3 +1749,457 @@ Consdoc
 *Consdoc*
 * button download di disable hanya bisa di lakukan oleh checker/user tertentu ✅️
 * re-open transmittal dibuat lebih visible ✅️
+[02/06/26, 8.26.20 AM] Ikky kai: Checkin
+2 Jun 2026 08:25
+
+Conspact
+* Location address photo not working
+* ⁠Tracking another bugs report from mas pras
+
+Conspact plus
+* Continue re integrate oldest api
+[02/06/26, 8.27.53 AM] Harry kai: Check-In
+02 Juni 2026 08:27
+
+*Consdoc*
+* Thumbnail preview nya popup dialog saja
+* Fix compare autodesk
+* Research change design toolbar autodesk to match with figma design
+[02/06/26, 8.29.45 AM] Andre Dev: Check-in
+02 Juni 2026, 08:29
+
+*Consdoc*
+- Refinement AI Consdoc
+- Implement daily/5-hourly usage limits for each user
+- Implement context usage windows on every conversation
+- Create user activity logs for Annotation and Document feature
+- Add fields 'user.ids' in transmittal list, for remaining user who not approval
+
+*Conspact*
+- Review oldest API endpoint AI integration ‎<This message was edited>
+[02/06/26, 8.31.40 AM] Vincent kai: Check-in
+02 Juni 2026, 08:30
+
+*Consdoc*
+- Grouping user suggestions pada saat lakukan assign
+- ⁠Re-Open Transmittal dibuat lebih visible supaya bisa terdeteksi
+[02/06/26, 8.48.49 AM] Andika kai: Check-in
+02 Juni 2026 08:48
+
+Consdoc
+* Implement export as PDF for 3d annotation including all issue/markups and comment
+* Explore MPXJ extracted data and try making custom gantt chart
+[02/06/26, 8.54.58 AM] Angga Dev: Chek In
+02 Juni 2026, 08.54
+
+- Fix labeling auth bahasa
+- ⁠fix filter curva & tabular daily
+[02/06/26, 5.38.58 PM] Angga Dev: *Check Out*
+2 Juni 2026 17:38 WIB
+
+- ✅ Refactor: optimize project data retrieval logic in ProjectsService
+- ✅ Refactor: simplify project status summary calculation in ProjectsService
+- ✅ Refactor: streamline daily report retrieval in ReportsController
+- ✅ Fix: update error messages in AuthService for consistency
+[02/06/26, 5.41.04 PM] Andre Dev: Check-out
+02 Juni 2026, 17:39
+
+*Consdoc*
+✅ Refinement AI Consdoc
+✅ Implement daily/5-hourly usage limits for each user
+✅ Implement context usage windows on every conversation
+🔃 Create user activity logs for Annotation and Document feature
+✅ Add fields 'user.ids' in transmittal list, for remaining user who not approval
+
+*Conspact*
+🔃 (Pending) Review oldest API endpoint AI integration
+[02/06/26, 5.44.53 PM] Ikky kai: Check-out
+2 Jun 2026 17:44
+
+Conspact
+* Location address photo not working ✅
+* ⁠Implement not started for statistic screen ✅
+* Change api ai for defect demage and recomendation photo for multiple language ✅
+* Label fix in graph when filter with daily date ✅
+Conspact plus
+* Continue re integrate oldest api (pending)
+[02/06/26, 5.48.57 PM] Harry kai: Check-Out
+02 Juni 2026 17:48
+
+*Consdoc*
+* Thumbnail preview nya popup dialog saja✅
+* Fix compare autodesk ⏳
+* Research change design toolbar autodesk to match with figma design⏳
+* ⁠Implement export as PDF for 3d annotation including all issue/markups and comment ✅
+[02/06/26, 5.51.08 PM] Andika kai: Check-out
+02 Juni 2026 17:50
+
+Consdoc
+* Implement export as PDF for 3d annotation including all issue/markups and comment 🔃 
+* Explore MPXJ extracted data and try making custom gantt chart 🔃
+[02/06/26, 5.54.10 PM] Vincent kai: Check-Out
+02 Juni 2026 17:51
+
+Consdoc
+•⁠  ⁠Grouping user suggestions pada saat lakukan assign 🔄
+•⁠  ⁠⁠Re-Open Transmittal dibuat lebih visible supaya bisa terdeteksi ✅
+[03/06/26, 8.36.10 AM] Ikky kai: Checkin
+3 Jun 2026 08:35
+
+Conspact plus
+* Continue re integrate old api
+[03/06/26, 8.37.38 AM] Andika kai: Check-in
+03 Juni 2026 08:37
+
+Consdoc
+* Continue debug implementation of export as PDF for 3d annotation 🔃 
+* Explore MPXJ extracted data and try making custom gantt chart 🔃
+* Store data of autodesk document when resolving an annotation with different version&revision
+[03/06/26, 8.40.16 AM] Andre Dev: Check-in
+03 Juni 2026, 08:40
+
+*Consdoc*
+- Review and fix MPXJ for routes and dto
+- Fixing Annotation frames creation
+- Create user activity logs for Annotation and Document feature ‎<This message was edited>
+[03/06/26, 8.40.32 AM] Vincent kai: Check-in
+03 Juni 2026 08:39
+
+Consdoc
+•⁠  ⁠Grouping user suggestions pada saat lakukan assign 🔄
+[03/06/26, 8.57.54 AM] Angga Dev: Check-in
+03 Juni 2026 08:56
+
+- Brain strom custom plan progres
+[03/06/26, 9.07.02 AM] Harry kai: Check-In 
+03 Juni 2026, 09:05
+* Fix compare autodesk ⏳
+* Research change design toolbar autodesk to match with figma design⏳
+* Improvement wiring api autodesk markup / issue resolved
+* Implement autodesk markup / issue in transmittal
+[03/06/26, 5.51.25 PM] Andre Dev: Check-out
+03 Juni 2026, 17:50
+
+*Consdoc*
+✅ Review and fix MPXJ for routes and dto
+✅ Create user activity logs for Annotation and Document feature
+🔃 Fixing Annotation frames creation
+[03/06/26, 5.52.49 PM] Andika kai: Check-out
+03 Juni 2026 17:52
+
+Consdoc
+* Continue debug implementation of export as PDF for 3d annotation (almost done, just need to fix the footer) 🔃 
+* Explore MPXJ extracted data and try making custom gantt chart 🔃
+* Store data of autodesk document when resolving an annotation with different version&revision ✅
+[03/06/26, 5.53.35 PM] Harry kai: Check-Out
+03 Juni 2026, 17:53
+* Fix compare autodesk ✅
+* Research change design toolbar autodesk to match with figma design⏳
+* Improvement wiring api autodesk markup / issue resolved✅
+* Implement autodesk markup / issue in transmittal✅
+[03/06/26, 6.22.42 PM] Angga Dev: ```
+Check Out
+
+🗓️ Tanggal: 03 Juni 2026
+🕒 Jam: 18.22 WIB
+
+📁 Conspact
+ - ✅ refactor: add language parameter to weekly report generation in ReportsController and ReportsService for improved localization support
+ - ✅ refactor: enhance week label formatting and options handling in ReportsService to support all-week scenarios and improve localization
+ - ✅ refactor: simplify response structure in FinanaceController by returning data directly from service
+```
+[03/06/26, 6.33.37 PM] Vincent kai: Checkout
+03 Juni 2026, 17:59
+
+Consdoc
+-  ⁠⁠Reset password not available to select✅-> Masih belum bisa (telampir) ✅
+-•⁠  ⁠Grouping user suggestions pada saat lakukan assign 🔄
+[03/06/26, 6.40.41 PM] Ikky kai: Checkout
+03 Juni 2026, 18:20
+
+Conspact Plus
+- Re integrate api old
+Assignn member to project
+Revoke owner to project
+
+Conspact
+* Debugging financial audit bugs
+* ⁠Dehugging dashboard owner bugs
+* ⁠Fix bahasa yg masih terlewat
+[04/06/26, 8.36.44 AM] Ikky kai: Checkin
+4 Jun 2026 08:35
+
+Conspact plus
+* Continue re integrate old api
+[04/06/26, 8.37.00 AM] Andika kai: Check-in
+04 Juni 2026 08:36
+
+Consdoc
+* Support frontend for integrate export as PDF for 3d annotation
+* Explore MPXJ extracted data and try making custom gantt chart
+[04/06/26, 8.43.56 AM] Harry kai: Check-In
+04 Juni 2026, 08:43
+* Research change design toolbar autodesk to match with figma design⏳
+* Implement autodesk markup / issue in transmittal
+* ⁠Wiring api export as PDF 3d annotation
+[04/06/26, 8.44.55 AM] Vincent kai: Check-in
+04 Juni 2026 08:43
+
+Consdoc
+- ⁠⁠Improvement Re-open transmittal dibuat lebih visible
+[04/06/26, 8.45.11 AM] Angga Dev: Cheko in
+04 Juni 2026 08.45
+
+- fix Bug inventori download preview 
+- ⁠Continue custom plan Conspact plus ‎<This message was edited>
+[04/06/26, 8.45.42 AM] Andre Dev: Check-out
+03 Juni 2026, 17:50
+
+*Consdoc*
+- Fixing service document, transmittal, annotation for sync frames creation
+- Continue improving AI for compare documents
+[04/06/26, 5.35.18 PM] Andika kai: Check-out
+04 Juni 2026 17:34
+
+Consdoc
+* Support frontend for integrate export as PDF for 3d annotation ✅
+* Explore MPXJ extracted data and try making custom gantt chart + discuss with frontend 🔃
+* Discuss with frontend about log activity for autodesk docs and separating 3d annotation into document and transmittal 🔃
+[04/06/26, 5.41.41 PM] Ikky kai: Check-out
+4 Jun 2026 17:40
+
+Implement re-integrate customized project
+* CUtoff week project
+* Project holiday (CRUD)
+* Synchronize project
+* Adding new visualization for contractor in detail project information
+Conspact
+* Penggantian "Jt" menjadi currency project pada grafik audit finance
+* Debugging report issue dari mas pras
+[04/06/26, 5.43.03 PM] Angga Dev: Check Out
+
+🗓️ Tanggal: 04 Juni 2026
+🕒 Jam: 17:00 WIB
+
+📁 Conspact Plus
+ - ✅ Fitur baru manajemen hari libur project (CRUD lengkap dengan controller, service, dan DTOs)
+ - ✅ Fitur merge dan alokasi action plan, termasuk endpoint baru untuk merge subtree dan manajemen alokasi plan
+
+📁 Conspact
+ - ✅ Perbaikan logika pengecekan tanggal di modul finance untuk hindari masalah timezone
+ - ✅ Update istilah aset dari "Peralatan/Tenaga Kerja" jadi "Equipment/Labor" biar konsisten
+ - ✅ Perbaikan penyimpanan dokumen inventaris agar path stabil dan bisa diakses dengan benar
+ - ✅ Ganti pesan error dari Bahasa Indonesia jadi Bahasa Inggris di API mobile
+ - ✅ Label invoice dan pembayaran di Bahasa Inggris di API list/detail
+ - ✅ Perbaikan pengecekan hari libur pada checklist biar sesuai dengan kalender lokal
+ - ✅ Filter laporan harian addendum berdasarkan flag isAddendum
+[04/06/26, 6.11.10 PM] Vincent kai: Checkout
+04 Juni 2026 17:00
+
+- Fix change edit and revoke button to icons ✅
+- ⁠fix reset password still not shown on staging ✅
+- ⁠improvement re-open transmittal dibuat lebih visible 🔄
+[04/06/26, 6.29.46 PM] Harry kai: Check-In
+04 Juni 2026, 08:43
+* Research change design toolbar autodesk to match with figma design ⏳
+* Implement autodesk markup / issue in transmittal✅
+* ⁠Wiring api export as PDF 3d annotation ✅
+[04/06/26, 10.01.51 PM] Andre Dev: Check-out
+03 Juni 2026, 21:55
+
+*Consdoc*
+✅ Fixing service document, transmittal, annotation for sync frames creation
+✅ Fixing queue jobs worker download document, and transmittal form (orphaned/stale jobs)
+✅ Improving AI for compare documents, showing list participants.
+✅ Improving UI/UX download activity panel
+✅ Implemention new events Redis Publish/Subscribe, for sync annotation frames
+[05/06/26, 8.40.26 AM] Andika kai: Check-in
+05 Juni 2026 08:39
+
+Consdoc
+* Implement filter 3d annotation for transmittal and shared drive
+* add log activity (then notification brodcast?) for 3d annotation in shared drive and transmittal
+* store export output to get counter of how much document being exported
+[05/06/26, 8.53.12 AM] Ikky kai: Check-in
+05 Juni 2026 08:51
+
+* Start integrate api actionplan plus
+[05/06/26, 8.54.24 AM] Vincent kai: Checkin 05 Juni 2026 08:31
+- fix collapsing description di transmittal
+[05/06/26, 8.58.25 AM] Harry kai: Check-in
+05 Juni 2026 08:58
+
+Consdoc
+* Wiring log activity in Transmittal Document and Shared Drive
+
+Tools Conspact (Generate image from PDF)
+- Fixed an issue where image generation was not working in a specific tab. ‎<This message was edited>
+[05/06/26, 9.59.52 AM] Andre Dev: Check-in
+03 Juni 2026, 09:59
+
+*Consdoc*
+- Implemenet compressing extracted document pages
+[05/06/26, 10.02.45 AM] Angga Dev: Check-in
+05 Juni 2026, 10.10
+
+- Fix bug defect download 
+- ⁠audit bahasa Conspact plus
+[05/06/26, 5.34.37 PM] Andika kai: Check-out
+05 Juni 2026 17:34
+
+Consdoc
+* Implement filter 3d annotation for transmittal and shared drive ✅
+* add log activity for 3d annotation in shared drive and transmittal ✅
+* store export output to get counter of how much document being exported (handover to mas Andre) ✅
+[05/06/26, 5.55.26 PM] Ikky kai: Check-out
+05 Juni 2026 17:55
+
+Start integrate api actionplan plus 
+* Import actionplan
+* create parent actionplan manual
+[05/06/26, 5.56.34 PM] Vincent kai: Checkout 05 Juni 2026 17:55
+
+•⁠  ⁠fix collapsing description di transmittal ✅
+[05/06/26, 6.13.58 PM] Harry kai: Check-out
+05 Juni 2026 18:13
+
+Consdoc
+* Wiring log activity in Transmittal Document and Shared Drive ⏳
+* ⁠Quality chart Implementation ✅
+
+Tools Conspact (Generate image from PDF)
+- Fixed an issue where image generation was not working in a specific tab.⏳
+[05/06/26, 6.14.36 PM] Andre Dev: Check-out
+03 Juni 2026, 18:10
+
+*Consdoc*
+✅ Implemenet compressing extracted document pages
+✅ Activity Logs for Document, Transmittal, Annotation with live-socket events
+✅ Fix deps Redis re-connection(retry) for all services codebases
+[05/06/26, 7.19.39 PM] Angga Dev: *Check Out*
+
+🗓️ Tanggal: 5 Juni 2026
+🕒 Jam: 19:16 WIB
+
+📁 Conspact
+ - ✅ Penyederhanaan penanganan dokumen aset dengan menghapus konversi path publik
+ - ✅ Perbaikan filter allWeek pada laporan tabular saat typeId diatur
+[08/06/26, 8.43.08 AM] Andika kai: Check-in
+08 Juni 2026 08:42
+
+Consdoc
+* Support frontend for integrate filter 3d annotation for transmittal and shared drive
+* Support frontend for integrate log activity for 3d annotation in shared drive and transmittal
+[08/06/26, 8.50.56 AM] Vincent kai: Checkin 8 Juni 2026 08:50
+
+Consdoc
+- Re-open transmittal dibuat lebih visible supaya bisa terdeteksi oleh approver / checker 🔄
+[08/06/26, 8.51.30 AM] Harry kai: Check-in
+08 Juni 2026 08:51
+
+Consdoc
+* Wiring log activity in Transmittal Document and Shared Drive ⏳
+
+Tools Conspact (Generate image from PDF)
+- Fixed an issue where image generation was not working in a specific tab.⏳ ‎<This message was edited>
+[08/06/26, 8.54.15 AM] Angga Dev: Check IN
+08 Juni 2026. 08.54
+
+Conspact Plus
+- brain strom Report & feature list
+[08/06/26, 9.07.02 AM] Ikky kai: Check in
+08 Juni 2026. 09.05
+
+Conspact Plus
+- continue implement api actionplan plus
+[08/06/26, 9.43.09 AM] Andre Dev: Check-in
+08 Juni 2026, 09:37
+
+*Consdoc*
+- Implement annotation tiled frames with .dzi file format per-pages (Deep Zoom Image)
+- Fix file corrupt from user, when uploading document accidentally redeploy feature.
+[08/06/26, 5.40.13 PM] Andika kai: Check-out
+08 Juni 2026 17:39
+
+Consdoc
+* Support frontend for integrate filter 3d annotation for transmittal and shared drive ✅
+* Support frontend for integrate log activity for 3d annotation in shared drive and transmittal ✅
+
+Pusdatin Chatbot
+* Support connecting whatsapp account into chatbot ✅
+[08/06/26, 6.11.47 PM] Vincent kai: Checkout 08 Juni 2026 17:30
+
+Consdoc
+- Adjust style revoke & edit transmittal ✅
+- ⁠Adjust icon user yang belum melakukan approve dari sisi approver 🔄
+- ⁠fix edit transmittal blank page saat edit description ✅
+[08/06/26, 6.15.17 PM] Ikky kai: Check in
+08 Juni 2026 18:15
+
+Actionplan plus
+- Integrasi import task ✅
+- Integrasi create task for multiple children ✅
+* Integrasi get all plan di task ✅
+* Addendum supported ✅
+[08/06/26, 6.25.51 PM] Angga Dev: Check IN
+08 Juni 2026. 18.26
+
+Conspact Plus
+- ✅ brain strom Report & feature list ‎<This message was edited>
+[08/06/26, 6.36.43 PM] Andre Dev: Check-out
+08 Juni 2026, 18:34
+
+*Consdoc*
+✅ Implement annotation tiled frames with .dzi file format per-pages (Deep Zoom Image)
+✅ Fix file corrupt from user, when uploading document accidentally redeploy feature.
+✅ Fix events Activity logs annotations
+✅ Transmittal new fields for progress roles
+[08/06/26, 6.50.39 PM] Harry kai: Check-out
+08 Juni 2026 18:50
+
+Consdoc
+* Wiring log activity in Transmittal Document and Shared Drive ⏳
+* ⁠Improve scope_type in autodek viewer & annotation ✅
+* ⁠Implement autodesk annotation in Document Transmittal✅
+
+Tools Conspact (Generate image from PDF)
+- Fixed an issue where image generation was not working in a specific tab.⏳
+[09/06/26, 8.30.22 AM] Ikky kai: Check in
+09 Juni 2026 08.30
+
+Conspact plus
+- continue implement api actionplan plus
+[09/06/26, 8.32.02 AM] Andre Dev: Check-in
+09 Juni 2026, 08:30
+
+*Consdoc*
+- Redesign new layout Transmittal body
+[09/06/26, 8.32.19 AM] Angga Dev: Check in
+09 Juni 2026 08.32
+
+Conspact
+- Fix issue after UAT
+[09/06/26, 8.39.11 AM] Harry kai: Check-In
+09 Juni 2026 08:38
+
+Consdoc
+* Wiring log activity in Transmittal Document and Shared Drive ⏳
+* Check autodesk CORS error when resolved
+* Log Activity in Shared Drive
+* IndexDB local storage to support save offline and trigger save when online
+
+Tools Conspact (Generate image from PDF)
+- Fixed an issue where image generation was not working in a specific tab.⏳
+
+Tracker Conspact
+- Daily report download ‎<This message was edited>
+[09/06/26, 8.45.46 AM] Andika kai: Check-in
+09 Juni 2026 08:45
+
+Consdoc
+* Explore mpp file example and research feature on online viewer
+[09/06/26, 8.48.55 AM] Vincent kai: Check-in 
+9 Juni 2026 08:48
+
+Consdoc
+•⁠  ⁠⁠Adjust icon user yang belum melakukan approve dari sisi approver 🔄

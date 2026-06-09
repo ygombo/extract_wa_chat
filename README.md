@@ -6,6 +6,7 @@ This repo has two scripts:
 
 - `filter_chat.py` creates a daily journal as a local `.docx` or writes it into an existing Google Doc tab.
 - `summarize_to_slides.py` uses OpenAI to summarize the journal and append a weekly report to an existing Google Slides presentation.
+- `weekly_report_web.py` provides a simple local web UI to upload `_chat.txt`, generate Slides, and schedule an email 1 hour later.
 
 The journal format is:
 
@@ -222,6 +223,100 @@ Useful options:
 --max-chat-chars 50000
 ```
 
+## Web Upload Workflow
+
+Use `weekly_report_web.py` when you want a simple browser interface every Monday.
+
+It does this flow:
+
+1. Upload the WhatsApp `_chat.txt`.
+2. Choose the start and end dates.
+3. Generate the weekly report slides in the configured Google Slides presentation.
+4. Schedule an email with the Slides link 1 hour later.
+
+Create `openai_key.json`:
+
+```json
+{
+  "api_key": "your_api_key_here"
+}
+```
+
+Create `weekly_report_config.json` from the example:
+
+```bash
+cp weekly_report_config.example.json weekly_report_config.json
+```
+
+Then edit `weekly_report_config.json`:
+
+```json
+{
+  "presentation_id": "YOUR_GOOGLE_SLIDES_ID_OR_URL",
+  "default_recipients": [
+    "one@example.com",
+    "two@example.com"
+  ],
+  "email_subject": "Development Weekly Report - {week}",
+  "email_body": "Hi team.\n\nThe development weekly report for {week} is ready.\n\nGoogle Slides:\n{presentation_url}\n\nThank you.",
+  "openai_key_file": "openai_key.json",
+  "model": "gpt-4.1-mini",
+  "google_credentials": "credentials.json",
+  "google_token": "slides_token.json",
+  "google_login_hint": "your.email@example.com"
+}
+```
+
+The web form does not ask for the Google Slides ID. It always uses `presentation_id` from `weekly_report_config.json`.
+
+Email recipients:
+
+- The web form has an **Email recipients** field.
+- `default_recipients` pre-fills that field.
+- You can edit recipients before submitting.
+- Separate multiple recipients with commas.
+
+Email content:
+
+- Subject comes from `email_subject`.
+- Body comes from `email_body`.
+- Available placeholders are `{week}`, `{presentation_url}`, and `{recipients}`.
+
+Create `smtp_config.json` from the example:
+
+```bash
+cp smtp_config.example.json smtp_config.json
+```
+
+Then edit `smtp_config.json`:
+
+```json
+{
+  "host": "smtp.gmail.com",
+  "port": 587,
+  "username": "your.email@example.com",
+  "password": "your_app_password",
+  "from_email": "your.email@example.com",
+  "use_tls": true
+}
+```
+
+For Gmail, use an app password, not your normal account password.
+
+Run the web app:
+
+```bash
+./weekly_report_web.py
+```
+
+Open:
+
+```text
+http://127.0.0.1:5000
+```
+
+The one-hour email schedule is in memory. Keep the web server running until the email has been sent. If the server is stopped, scheduled emails are lost.
+
 ## Useful Commands
 
 Show all options:
@@ -229,6 +324,7 @@ Show all options:
 ```bash
 ./filter_chat.py --help
 ./summarize_to_slides.py --help
+./weekly_report_web.py
 ```
 
 Write Google Docs only:

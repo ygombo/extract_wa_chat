@@ -1,0 +1,14 @@
+{
+  "presentation_id": "YOUR_GOOGLE_SLIDES_ID_OR_URL",
+  "default_recipients": [
+    "one@example.com",
+    "two@example.com"
+  ],
+  "email_subject": "Development Weekly Report - {week}",
+  "email_body": "Hi team,\n\nThe development weekly report for {week} is ready.\n\nGoogle Slides:\n{presentation_url}\n\nThank you.",
+  "openai_key_file": "openai_key.json",
+  "model": "gpt-4.1-mini",
+  "google_credentials": "credentials.json",
+  "google_token": "slides_token.json",
+  "google_login_hint": "your.email@example.com"
+}

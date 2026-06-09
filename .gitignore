@@ -9,4 +9,9 @@ credentials.json
 token.json
 slides_token.json
 openai_key.json
+smtp_config.json
+weekly_report_config.json
 client_secret_*.json
+
+uploads/
+summaries/
