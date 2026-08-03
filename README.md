@@ -154,6 +154,36 @@ Create the tab manually in Google Docs first, then rerun the script with the exa
 
 Create a new OAuth client with application type **Desktop app**, download the JSON, and save it as `credentials.json`.
 
+## Scheduled Google Sheets Column Lock
+
+Use `google_sheet_column_lock.gs` to lock a Google Sheets column at a scheduled time. This is a Google Apps Script, not a local Python script, because Google Sheets protections and time-based triggers run inside Apps Script.
+
+Setup:
+
+1. Open the target Google Sheet.
+2. Go to **Extensions > Apps Script**.
+3. Paste the contents of `google_sheet_column_lock.gs` into the editor.
+4. Update `CONFIG`:
+
+```javascript
+sheetName: 'Sheet1',
+column: 'C',
+startRow: 2,
+allowedEditors: ['manager@example.com'],
+triggerHour: 17,
+triggerMinute: 0,
+```
+
+5. Run one of these functions once from the Apps Script editor:
+
+- `installDailyLockTrigger` locks the column every day near the configured time.
+- `installOneTimeLockTrigger` locks the column once at `CONFIG.oneTimeTrigger`.
+- `removeLockTriggers` removes the scheduled lock trigger.
+
+The script protects the configured column so other editors cannot change it. If `freezePaneToo` is `true`, it also visually freezes the sheet through that column while scrolling.
+
+The trigger runs as the Google account that installs it, so that account must have permission to protect ranges in the spreadsheet. The spreadsheet owner can always edit protected ranges.
+
 ## Summarize to Google Slides
 
 Use `summarize_to_slides.py` to summarize the filtered daily journal with OpenAI and append a weekly report to an existing Google Slides presentation.
